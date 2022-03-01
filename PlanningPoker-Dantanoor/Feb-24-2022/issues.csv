@@ -1,0 +1,2 @@
+id,ref,subject,description,sprint_id,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,status,severity,priority,type,is_closed,attachments,external_reference,tags,watchers,voters,created_date,modified_date,finished_date,due_date,due_date_reason
+1509514,64,GUI Modules not integrated yet,,,,,,vidhya_sathyalaya,Vidhya Sathyalaya Ramakrishnan,,,New,Normal,Normal,Bug,False,0,,,[],0,2022-02-22 07:43:49.323013+00:00,2022-02-22 07:43:49.353172+00:00,,,

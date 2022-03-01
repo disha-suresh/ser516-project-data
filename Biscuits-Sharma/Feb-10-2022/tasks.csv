@@ -1,0 +1,41 @@
+id,ref,subject,description,user_story,sprint_id,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,status,is_iocaine,is_closed,us_order,taskboard_order,attachments,external_reference,tags,watchers,voters,created_date,modified_date,finished_date,due_date,due_date_reason,Happiness
+4116107,1,GitHub repo setup,"As development team 
+I want to have an repository to commit project artifacts 
+So team can collaborate properly.
+
+Acceptance Criteria:
+
+Private GitHub repository. 
+Invite all collaborators. 
+Update wiki page. 
+Name should be of format SER515-Spring22-Team",,308437,Ramp-up,2022-01-29,2022-02-04,KanavSharma,Kanav Sharma,KanavSharma,Kanav Sharma,Done,False,True,1643825822283,2,0,,,[],0,2022-02-02 18:17:02.308439+00:00,2022-02-06 04:59:24.545300+00:00,2022-02-06 04:59:24.550135+00:00,,,
+4116113,2,Create GitHub to Taiga Integration,"As development team   
+I want to have GitHub and Taiga integrated   
+So team can get required notifications.",,308437,Ramp-up,2022-01-29,2022-02-04,KanavSharma,Kanav Sharma,KanavSharma,Kanav Sharma,Done,False,True,1643826002191,1643826002195,0,,,[],0,2022-02-02 18:20:02.222208+00:00,2022-02-02 18:21:03.372968+00:00,2022-02-02 18:21:00.423993+00:00,,,
+4116118,3,GitHub Slack Integration,"As development team  
+I want to have GitHub and Slack integrated  
+So team can get required notifications.",,308437,Ramp-up,2022-01-29,2022-02-04,KanavSharma,Kanav Sharma,KanavSharma,Kanav Sharma,Done,False,True,1643826235709,1643826002196,0,,,[],0,2022-02-02 18:23:55.743142+00:00,2022-02-02 18:23:59.839246+00:00,2022-02-02 18:23:59.845859+00:00,,,
+4116121,4,Slack Taiga Integration,"As development team  
+I want to have Slack and Taiga integrated  
+So team can get required notifications.",,308437,Ramp-up,2022-01-29,2022-02-04,KanavSharma,Kanav Sharma,_manish_m_r,Manish Mysore Rajesh Gangadhar,Done,False,True,1643826284874,0,0,,,[],0,2022-02-02 18:24:44.910959+00:00,2022-02-06 05:00:36.423660+00:00,2022-02-06 05:00:36.428470+00:00,,,
+4116510,5,Setup Dev Environment,"Setup development environment.
+Update Canvas portal with URLs and post status meeting report.",,308437,Ramp-up,2022-01-29,2022-02-04,jjose14,Jacob Jose,jjose14,Jacob Jose,Done,False,True,1643841464672,3,0,,,[],0,2022-02-02 22:37:44.709930+00:00,2022-02-06 04:59:04.075117+00:00,2022-02-06 04:59:04.080596+00:00,,,
+4116810,6,Integration Validation,"Validation of integration of GitHub, Slack and Taiga.",,308437,Ramp-up,2022-01-29,2022-02-04,_manish_m_r,Manish Mysore Rajesh Gangadhar,_manish_m_r,Manish Mysore Rajesh Gangadhar,Done,False,True,1643884076133,1,0,,,[],0,2022-02-03 10:27:56.164835+00:00,2022-02-06 05:00:40.256397+00:00,2022-02-06 05:00:40.261916+00:00,,,
+4120256,23,Feasibility study for the changes in local,,13,308635,Sprint 1,2022-02-05,2022-02-11,KanavSharma,Kanav Sharma,KanavSharma,Kanav Sharma,Done,False,True,1644125241113,1,0,,,[],0,2022-02-06 05:27:21.150900+00:00,2022-02-07 00:51:44.668859+00:00,2022-02-07 00:51:44.674459+00:00,,,
+4120257,24,Researching about APIs that Slack has. ,,7,308635,Sprint 1,2022-02-05,2022-02-11,jjose14,Jacob Jose,jjose14,Jacob Jose,Done,False,True,1644125257417,0,0,,,[502632],0,2022-02-06 05:27:37.449710+00:00,2022-02-09 23:05:15.434773+00:00,2022-02-09 23:04:33.039209+00:00,,,
+4120258,25,Commit and Deploy changes,,13,308635,Sprint 1,2022-02-05,2022-02-11,KanavSharma,Kanav Sharma,KanavSharma,Kanav Sharma,Done,False,True,1644125263776,2,0,,,[],0,2022-02-06 05:27:43.815474+00:00,2022-02-10 19:07:29.166194+00:00,2022-02-10 19:07:29.170990+00:00,,,
+4120259,26,Making changes in the application to interact with Slack API.,,7,308635,Sprint 1,2022-02-05,2022-02-11,jjose14,Jacob Jose,jjose14,Jacob Jose,In progress,False,False,1644125279395,0,0,,,[],0,2022-02-06 05:27:59.428467+00:00,2022-02-09 23:05:29.357042+00:00,,,,
+4120261,27,Testing the functionality.,,7,308635,Sprint 1,2022-02-05,2022-02-11,jjose14,Jacob Jose,,,New,False,False,1644125296560,1644125296562,0,,,[],0,2022-02-06 05:28:16.592244+00:00,2022-02-06 05:28:16.620786+00:00,,,,
+4120262,28,Changes to add happiness field for tasks,,13,308635,Sprint 1,2022-02-05,2022-02-11,KanavSharma,Kanav Sharma,KanavSharma,Kanav Sharma,Done,False,True,1644125310613,3,0,,,[],0,2022-02-06 05:28:30.653981+00:00,2022-02-09 05:20:10.642255+00:00,2022-02-09 05:20:10.649465+00:00,,,
+4120263,29,Screen recording the funtionality.,,7,308635,Sprint 1,2022-02-05,2022-02-11,jjose14,Jacob Jose,,,New,False,False,1644125323853,1644125323855,0,,,[],0,2022-02-06 05:28:43.885210+00:00,2022-02-06 05:28:43.912960+00:00,,,,
+4120265,30,Changes to populate happiness value added while showing dashboard,,13,308635,Sprint 1,2022-02-05,2022-02-11,KanavSharma,Kanav Sharma,KanavSharma,Kanav Sharma,Done,False,True,1644125338457,5,0,,,[],0,2022-02-06 05:28:58.493910+00:00,2022-02-09 05:17:04.453766+00:00,2022-02-09 05:17:04.460495+00:00,,,
+4120266,31,Changes to populate happiness value added while showing plan,,13,308635,Sprint 1,2022-02-05,2022-02-11,KanavSharma,Kanav Sharma,KanavSharma,Kanav Sharma,Done,False,True,1644125358252,4,0,,,[],0,2022-02-06 05:29:18.290759+00:00,2022-02-09 17:33:54.295815+00:00,2022-02-09 17:33:54.300620+00:00,,,
+4120268,33,Researching about what technology in which the GUI can be implemented.,,,308635,Sprint 1,2022-02-05,2022-02-11,jjose14,Jacob Jose,KanavSharma,Kanav Sharma,In progress,False,False,1644125424910,1,0,,,[],0,2022-02-06 05:30:24.949394+00:00,2022-02-11 06:45:45.445737+00:00,,,,
+4120269,34,Commit and Merge,,20,308635,Sprint 1,2022-02-05,2022-02-11,jjose14,Jacob Jose,KanavSharma,Kanav Sharma,Done,False,True,1644125442002,1,0,,,[],0,2022-02-06 05:30:42.035877+00:00,2022-02-11 06:45:01.293508+00:00,2022-02-11 06:45:01.298393+00:00,,,
+4120270,35,feasibility study and local code changes,,12,308635,Sprint 1,2022-02-05,2022-02-11,Vpatel1708,Vashishtha patel ,Vpatel1708,Vashishtha patel ,Done,False,True,1644125734283,0,0,,,[],0,2022-02-06 05:35:34.317497+00:00,2022-02-10 08:44:34.686768+00:00,2022-02-10 08:44:34.691349+00:00,,,
+4120271,36,To rectify all the wrong miss spelled commands,,11,308635,Sprint 1,2022-02-05,2022-02-11,_manish_m_r,Manish Mysore Rajesh Gangadhar,_manish_m_r,Manish Mysore Rajesh Gangadhar,In progress,False,False,1644125737543,3,0,,,[],0,2022-02-06 05:35:37.579948+00:00,2022-02-09 04:09:51.073132+00:00,,,,
+4120272,37,Commit and Deploy changes,,11,308635,Sprint 1,2022-02-05,2022-02-11,KanavSharma,Kanav Sharma,,,New,False,False,1644125824142,1644125824143,0,,,[],0,2022-02-06 05:37:04.173453+00:00,2022-02-06 05:37:04.201436+00:00,,,,
+4120273,38,Commit the changes to Github,,12,308635,Sprint 1,2022-02-05,2022-02-11,Vpatel1708,Vashishtha patel ,Vpatel1708,Vashishtha patel ,In progress,False,False,1644125847211,0,0,,,[],0,2022-02-06 05:37:27.248606+00:00,2022-02-11 07:03:16.196234+00:00,,,,
+4132341,40,Project setup,Project setup locally.,,308635,Sprint 1,2022-02-05,2022-02-11,_manish_m_r,Manish Mysore Rajesh Gangadhar,_manish_m_r,Manish Mysore Rajesh Gangadhar,Done,False,True,1644385595677,0,0,,,[],0,2022-02-09 05:46:35.707961+00:00,2022-02-09 10:02:24.250135+00:00,2022-02-09 10:02:24.254896+00:00,,,
+4132380,41,Updating the Java version,Researching on how to update the java environment.,,308635,Sprint 1,2022-02-05,2022-02-11,_manish_m_r,Manish Mysore Rajesh Gangadhar,_manish_m_r,Manish Mysore Rajesh Gangadhar,In progress,False,False,1644395566679,0,0,,,[],0,2022-02-09 08:32:46.706142+00:00,2022-02-09 08:32:56.954842+00:00,,,,
+4133061,43,Creating GUI wireframes,,20,308635,Sprint 1,2022-02-05,2022-02-11,KanavSharma,Kanav Sharma,KanavSharma,Kanav Sharma,Done,False,True,1644433397312,0,0,,,[501573],0,2022-02-09 19:03:17.357885+00:00,2022-02-11 06:35:46.121212+00:00,2022-02-11 06:35:46.126558+00:00,,,

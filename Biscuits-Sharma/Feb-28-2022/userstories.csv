@@ -1,0 +1,373 @@
+id,ref,subject,description,sprint_id,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,assigned_users,assigned_users_full_name,status,is_closed,swimlane,ux-points,total-points,backlog_order,sprint_order,kanban_order,created_date,modified_date,finish_date,client_requirement,team_requirement,attachments,generated_from_issue,generated_from_task,from_task_ref,external_reference,tasks,tags,watchers,voters,due_date,due_date_reason,Business Value
+3871977,7,Integration with Slack,"As a user, I want to get updates on Slack. 
+So that I can keep track from Slack also.
+
+Acceptance criteria:  
+Receive a message/post on Slack when a new project is created.
+
+Story Points:
+
+Planning poker
+
+Kanav 5 
+Vashishth 8 
+Jacob 8
+
+Manish 8
+
+
+Story Points: 8
+Business Value: Getting updates on Slack can help users get updates real time.
+",308635,Sprint 1,2022-02-05,2022-02-11,jjose14,Jacob Jose,jjose14,Jacob Jose,jjose14,Jacob Jose,New,True,,8.0,8.0,1644116811233536,2,1644116811265512,2022-02-06 03:06:51.265523+00:00,2022-02-12 02:44:23.146854+00:00,2022-02-12 02:31:32.205205+00:00,False,False,0,,,,,"24,26,27,29",integrate_tool,[502632],0,,,x-large
+3871978,8,PDF Generation,"As a user, I want to generate PDF of the views.  So that I can take printout of the PDFs.
+
+Acceptance criteria:    
+There should be an option to generate PDF, which once selected, a PDF file showing the view should be created.
+
+Planning poker
+
+Kanav 13  
+Vashishth  21  
+Jacob 21   
+Manish 21",,,,,jjose14,Jacob Jose,,,,,New,False,,20.0,20.0,1644116881874598,1644116881874668,1644116881900914,2022-02-06 03:08:01.900925+00:00,2022-02-06 04:36:17.352291+00:00,,False,False,0,,,,,,new_feature,[],0,,,xx-large
+3871980,9,Add team members,"As a developer,   
+I want to have functionality to add team members into created project    
+So that we can know our working team.
+
+Acceptance criteria:    
+CMD tool have command to create team.   
+CMD tool have command to add team members.   
+CMD tool have command to remove team members.   
+Display team members created.
+
+Planning poker
+
+Kanav 5   
+Vashishth  8  
+Jacob 8   
+Manish",308636,Sprint 2,2022-02-12,2022-02-18,KanavSharma,Kanav Sharma,,,,,New,True,,8.0,8.0,1644118195445893,1,1644118195482865,2022-02-06 03:29:55.482876+00:00,2022-02-12 18:17:27.965575+00:00,2022-02-18 23:40:11.078061+00:00,False,False,0,,,,,"54,64,65",new_feature,[],0,,,x-large
+3871981,10,Integrating with Taiga,"As a developer,   
+I want my CMD tool to integrate with Taiga   
+So that we can establish an initial connection between Biscuit and Taiga.
+
+Acceptance criteria:   
+CMD tool to integrate with Taiga.   
+CMD tool having command to push data to Taiga.
+
+Planning poker
+
+Kanav 10   
+Vashishth 10   
+Jacob 10   
+Manish 10",308637,Sprint 3,2022-02-19,2022-02-25,KanavSharma,Kanav Sharma,,,,,New,True,,13.0,13.0,1644116881874607,3,1644118634450977,2022-02-06 03:37:14.450992+00:00,2022-02-21 03:53:16.395659+00:00,2022-02-24 19:36:31.164050+00:00,False,False,0,,,,,"82,83,84,85,86,87",integrate_tool,[],0,,,xx-large
+3871982,11,Rectify the miss spellings of commnds.,"Description:
+
+As a developer,
+I want to rectify all the misspellings in command list, So that there is less chances of user mistake during command selection.
+
+Acceptance criteria:
+All commands should have correct spellings.
+
+Planning poker:
+Kanav 2
+Vashishth 5
+Jacob 3
+Manish 3",308636,Sprint 2,2022-02-12,2022-02-18,_manish_m_r,Manish Mysore Rajesh Gangadhar,,,,,New,True,,1.0,1.0,1644118634418103,2,1644119079649999,2022-02-06 03:44:39.650014+00:00,2022-02-12 17:57:33.090520+00:00,2022-02-15 08:21:02.933023+00:00,False,False,0,,,,,"36,37",technical_debt,"[489137, 502632]",0,,,x-small
+3871984,12,Adding GitHub URL to project information.,"Description
+
+As a product owner
+I want to have a space to add GitHub URL in project description.
+So that the team can have the corresponding GitHub repo handy. 
+
+Acceptance criteria:
+CMD prompt to add GitHub repo while creating a new project.
+
+Planning poker:
+Kanav 2
+Vashishth 3
+Jacob 2
+Manish 2",308636,Sprint 2,2022-02-12,2022-02-18,_manish_m_r,Manish Mysore Rajesh Gangadhar,,,,,New,True,,1.0,1.0,1644118634418098,5,1644119614921462,2022-02-06 03:53:34.921478+00:00,2022-02-12 17:54:45.865961+00:00,2022-02-18 00:31:36.811323+00:00,False,False,0,,,,,"35,38,62",new_feature,"[63127, 502632]",0,,,small
+3871986,13,Add happiness to the Tasks,"As a developer,    
+I want to add a feature to hold happiness index for a task  
+So that we can see the happiness of that task.
+
+Acceptance criteria:     
+CMD tool have command to add happiness to a task.    
+Display happiness for each US.
+
+Planning poker
+
+Kanav 3    
+Vashishth 5    
+Jacob 5    
+Manish 5",308635,Sprint 1,2022-02-05,2022-02-11,Vpatel1708,Vashishtha patel ,,,,,New,True,,5.0,5.0,1644120137065554,1,1644120137092274,2022-02-06 04:02:17.092284+00:00,2022-02-06 16:53:27.370598+00:00,2022-02-10 19:07:29.199958+00:00,False,False,0,,,,,"23,25,28,30,31",new_feature,[],0,,,medium
+3871988,14,Add business value to a User story,"As a developer,    
+I want to add a feature to hold business value for a user story  
+So that we can see the business value of the user story.
+
+Acceptance criteria:     
+CMD tool have command to add business value to a user story  
+Display business value for each user story.
+
+Planning poker
+
+Kanav 5    
+Ashik 5    
+Santosh 5    
+Manish 5",308638,Sprint 4,2022-02-26,2022-03-04,Vpatel1708,Vashishtha patel ,,,,,New,False,,5.0,5.0,1644116881874600,3,1644120323537724,2022-02-06 04:05:23.537733+00:00,2022-03-01 04:46:26.313178+00:00,,False,False,0,,,,,101,new_feature,[],0,,,medium
+3871990,15,Ability to share dashboard data,"As a user, I want to share my project data via a JSON file so that I can import them to other external systems.
+
+Acceptance     
+There should be an option to export the project's JSON file.
+
+Planning poker   
+Kanav 8    
+Vashishth 8     
+Jacob 8     
+Manish 8",,,,,jjose14,Jacob Jose,,,,,New,False,,8.0,8.0,1644116881874606,1644121182561482,1644121182591799,2022-02-06 04:19:42.591812+00:00,2022-02-12 18:34:31.521647+00:00,,False,False,0,,,,,,new_feature,[],0,,,small
+3871997,16,Mapping values to autocomplete texts,"As a developer,   
+I want to map numeric values to the cmd text commands   
+So that end user finds it easy to select and avoid typing errors
+
+Acceptance criteria:
+
+Sections having multiple options for a value, to be mapped with numeric value   
+Ability to user to select value and corresponding option gets selected
+
+Planning poker
+
+Kanav 8   
+Santosh 8   
+Ashik 8   
+Manish 8",308638,Sprint 4,2022-02-26,2022-03-04,KanavSharma,Kanav Sharma,,,,,New,False,,5.0,5.0,1644116881874601,2,1644121841648454,2022-02-06 04:30:41.648464+00:00,2022-02-26 05:01:14.801060+00:00,,False,False,0,,,,,109,technical_debt,[],0,,,medium
+3872000,17,Import Taiga information from Taiga API,"As a developer,
+I want to fetch data from Taiga
+So that I can sync taiga information to CMD tool.
+
+Acceptance criteria:
+
+Working API to import data from taiga.
+Data to be converted/stored in json.
+Imported data to be populated in cmd tool.
+
+Planning poker
+
+Kanav 13
+Vashishth 21
+Jacob 21
+Manish 13",,,,,KanavSharma,Kanav Sharma,,,,,New,False,,20.0,20.0,1644116881874608,1644122126079849,1644122126107692,2022-02-06 04:35:26.107713+00:00,2022-02-06 04:36:50.034308+00:00,,False,False,0,,,,,,integrate_tool,[],0,,,xx-large
+3872002,18,Validation for business point input,"As a developer,
+I want to validate input provided to business point
+So that no random value gets accepted by mistake
+
+Acceptance criteria:
+
+Business point to accept only valid set of values
+
+Planning poker
+
+Kanav 3
+Vashishth 5
+Jacob 3
+Manish 3",308636,Sprint 2,2022-02-12,2022-02-18,KanavSharma,Kanav Sharma,,,,,New,True,,3.0,3.0,1644118634418104,7,1644122289709251,2022-02-06 04:38:09.709262+00:00,2022-02-06 04:40:50.258109+00:00,2022-02-18 19:02:45.110883+00:00,False,False,1,,,,,"55,60,61,63",technical_debt,[],0,,,small
+3872005,19,Functionality to sort in ascending order,"Description
+As a developer,
+I want to have a functionality to sort User-Stories in ascending order of the assigned story points.
+
+Acceptance criteria:
+The User should get sorted and displayed in ascending order.
+
+Planning poker:
+Kanav 5
+Vashishth 5
+Jacob 5
+Manish 5",,,,,_manish_m_r,Manish Mysore Rajesh Gangadhar,,,,,New,False,,5.0,5.0,1644116881874607,1644122647924771,1644122647952691,2022-02-06 04:44:07.952701+00:00,2022-02-06 04:44:07.974440+00:00,,False,False,0,,,,,,new_feature,[],0,,,small
+3872008,20,"Researching tools, software and platforms required to create GUI","Description
+As a developer,
+I want to analyze appropriate software and platforms required to create GUI.
+So that
+User can have user interface to execute scrum.
+
+Acceptance criteria:
+Finalizing prerequisites and platforms required to create GUI.
+
+Planning poker:
+Kanav 2
+Vashishth 3
+Jacob 8
+
+Manish 5
+
+
+Story points: 5
+
+Business Value: xx-large - Having a GUI will greatly enhance user experience.
+",308635,Sprint 1,2022-02-05,2022-02-11,_manish_m_r,Manish Mysore Rajesh Gangadhar,,,,,New,True,,5.0,5.0,1644123134580974,5,1644123134613756,2022-02-06 04:52:14.613769+00:00,2022-02-09 18:56:29.468615+00:00,2022-02-11 06:45:01.323443+00:00,False,False,0,,,,,"34,43",gui,"[63127, 501573]",0,,,xx-large
+3872012,21,Creating GUI wireframes,"As a developer,     
+I want to create wireframes for the GUI screens     
+So that it can be approved by a product owner and development team can initiate implementation.
+
+Acceptance criteria:      
+Pending wireframes should be done.
+
+Planning poker
+
+Kanav 3     
+Vashishth 5     
+Jacob 3    
+Manish",308636,Sprint 2,2022-02-12,2022-02-18,Vpatel1708,Vashishtha patel ,,,,,New,True,,3.0,3.0,1644118634418106,3,1644123470069866,2022-02-06 04:57:50.069875+00:00,2022-02-12 18:05:37.232233+00:00,2022-02-19 00:06:14.066941+00:00,False,False,0,,,,,"49,59,66",gui,[],0,,,xx-large
+3872014,22,Adding custom status,"As a user of Biscuit, 
+
+I want to add custom status also to my tasks. 
+
+So that we can mark unprecedented situations.
+
+Acceptance Criteria: 
+
+1.  Should be able to add custom status to tasks.
+2.  Custom status should be displayed along with the tasks.
+
+Planning Poker
+
+1.  Jacob - 3
+2.  Kanav - 3
+3.  Vashishth - 5
+4.  Manish",,,,,jjose14,Jacob Jose,,,,,New,False,,3.0,3.0,1644116881874604,1644123608162115,1644123608190240,2022-02-06 05:00:08.190250+00:00,2022-02-12 18:22:36.083151+00:00,,False,False,0,,,,,,new_feature,[],0,,,medium
+3878001,44,Adding task details to planner showcase,"As a user, I want to see tasks details too in the planner section So that whole plan is visible in one view
+
+Acceptance criteria:     
+Listing of tasks details while executing plan details command in planner
+
+Planning poker
+
+Kanav 5  
+Vashishth 8  
+Jacob 8  
+Manish TBD",,,,,KanavSharma,Kanav Sharma,,,,,New,False,,8.0,8.0,1644116881874605,1644539160963533,1644539160994899,2022-02-11 00:26:00.994908+00:00,2022-02-12 18:24:07.446099+00:00,,False,False,0,,,,,,new_feature,[],0,,,medium
+3878002,45,Optimize exiting description section,"As a user, I want ""\\q"" to be accepted at every line for exiting instead of new line.  So that it gets easy for user to exit.
+
+Acceptance criteria:      
+“\\q” command to be used for exiting to be accepted at every part of description.
+
+Planning poker
+
+Kanav 3   
+Vashishth 3   
+Jacob 8   
+Manish Not Available",308637,Sprint 3,2022-02-19,2022-02-25,KanavSharma,Kanav Sharma,jjose14,Jacob Jose,jjose14,Jacob Jose,New,True,,5.0,5.0,1644116881874608,2,1644539387009832,2022-02-11 00:29:47.009842+00:00,2022-02-19 22:32:08.523322+00:00,2022-02-26 03:32:16.567534+00:00,False,False,0,,,,,"76,77,78",technical_debt,[],0,,,small
+3878003,46,tab command to accept case insensitive text,"As a user, I want tab to accept case insensitive text so that user have flexibility to get inteli sense options.
+
+Acceptance criteria:     
+Tab command should accept case-insensitive text. 
+
+Planning poker
+
+Kanav 8  
+Vashishth 8  
+Jacob 8  
+Manish TBD",,,,,KanavSharma,Kanav Sharma,,,,,New,False,,8.0,8.0,1644116881874599,1644539489616568,1644539489645431,2022-02-11 00:31:29.645444+00:00,2022-02-12 18:29:41.492986+00:00,,False,False,0,,,,,,new_feature,[],0,,,medium
+3880266,48,Sending updates to Project's Slack Channel,"As a user of Biscuit,     
+I want Biscuit to send updates to Slack,     
+So that the Slack users are notified immediately.
+
+Acceptance Criteria
+
+1.  Messages to be posted on Slack when a task is created, updated, or deleted.
+2.  Unit Testing completed.
+3.  Deployed successfully.
+
+Planning Poker
+
+1.  Jacob - 8
+2.  Kanav - 5
+3.  Vashisht - 8",308636,Sprint 2,2022-02-12,2022-02-18,jjose14,Jacob Jose,,,,,New,True,,8.0,8.0,1644689295308586,6,1644689295334079,2022-02-12 18:08:15.334091+00:00,2022-02-12 18:11:45.709273+00:00,2022-02-18 20:00:46.989817+00:00,False,False,0,,,,,"50,51,52,53",integrate_tool,[],0,,,large
+3889099,67,Creating front end for Add Project,"As a developer, I want to create front end screen for add project functionality.  So that we can add a  new project can be added to biscuit.
+
+Acceptance criteria:     
+JSP Or Node  screen for add project.
+
+Planning poker
+
+Kanav  8  
+Vashishth 8  
+Jacob   13  
+Manish Not Available",308637,Sprint 3,2022-02-19,2022-02-25,KanavSharma,Kanav Sharma,,,,,New,True,,8.0,8.0,1645246948697083,4,1645246948727857,2022-02-19 05:02:28.727871+00:00,2022-02-19 22:13:29.015852+00:00,2022-02-25 05:24:27.263548+00:00,False,False,0,,,,,"80,88,90,91,92,93",gui,[],0,,,x-large
+3889401,68,Adding roles of team members,"As a developer   
+I want to add feature of adding roles of team members   
+So team members have better understanding of what they are doing.
+
+Acceptance criteria:   
+Ability to provide roles to each team member.
+
+**Planning poker :** 
+
+*   Kanav: 3
+*   Jacob:  13
+*   Vashishth: 8  
+*   Manish: Not Available",308637,Sprint 3,2022-02-19,2022-02-25,Vpatel1708,Vashishtha patel ,,,,,New,True,,8.0,8.0,1645303894049264,5,1645303894079001,2022-02-19 20:51:34.079015+00:00,2022-02-19 22:10:35.947547+00:00,2022-02-26 03:33:48.437382+00:00,False,False,0,,,,,"75,94",new_feature,[],0,,,
+3889453,69,Taiga Biscuit connectivity,"As a developer, 
+I want initial setup complete and connectivity established between Taiga and Biscuit 
+So we have a platform set for exporting CSV from Taiga to application.
+
+Acceptance criteria: 
+
+Connectivity setup between Taiga and Biscuit.
+
+
+Planning poker
+
+Kanav  8
+Vashishth  8
+Jacob 13 
+Manish Not Available",308638,Sprint 4,2022-02-26,2022-03-04,KanavSharma,Kanav Sharma,,,,,New,False,,13.0,13.0,1644116881874609,4,1645309531760002,2022-02-19 22:25:31.760015+00:00,2022-02-19 22:26:05.792917+00:00,,False,False,0,,,,,"97,98,99,100,102,103,104",integrate_tool,[],0,,,x-large
+3889455,70,Slack Biscuit Integration for User story,"As a user of Biscuit,    
+I want Biscuit to send updates to Slack when a user story is created,    
+So that the Slack users are notified immediately.
+
+Acceptance Criteria
+
+Messages to be posted on Slack when a user story is created, updated, or deleted.
+Unit Testing completed.
+Deployed successfully.
+
+Planning Poker
+
+Jacob -  3
+Kanav -  3
+Vashisht - 3
+Manish - Not Available",308637,Sprint 3,2022-02-19,2022-02-25,KanavSharma,Kanav Sharma,,,,,New,True,,3.0,3.0,1645309784163107,1,1645309784193121,2022-02-19 22:29:44.193134+00:00,2022-02-26 03:13:28.243266+00:00,2022-02-23 16:51:57.400758+00:00,False,False,0,,,,,"71,72,73,81",integrate_tool,[501573],0,,,
+3889458,74,GUI for adding user stories to projects.,"As a user, I want to add User Stories to my project using a GUI so that it is easier to use. 
+
+Acceptance Criteria
+A website should be available to add User Stories to project.
+
+Planning poker  
+Kanav   
+Vashishth     
+Jacob     
+Manish",,,,,jjose14,Jacob Jose,,,,,New,False,,,,1644116881874603,1,1645309898637287,2022-02-19 22:31:38.637297+00:00,2022-02-19 23:46:34.084078+00:00,,False,False,0,,,,,,gui,[],0,,,
+3896549,95,Backend for GUI Add Project,"As a developer, I want to setup backend for GUI screens, so that GUI gets required data to populate.
+
+Acceptance Criteria 
+Backend to deliver required data to populate GUI.
+
+Planning poker:
+  
+Kanav  8 
+Ashik  3     
+Santosh 21      
+Manish 21",308638,Sprint 4,2022-02-26,2022-03-04,KanavSharma,Kanav Sharma,,,,,New,False,,13.0,13.0,1644116881874602,5,1645850812209866,2022-02-26 04:46:52.209878+00:00,2022-02-26 04:47:04.333206+00:00,,False,False,0,,,,,"105,106,107,108",gui,[],0,,,x-large
+3896551,96,Adding projects into Taiga through Console,"As a user, 
+I want connectivity established between Taiga and Biscuit 
+So I can add projects into Taiga through Console.
+
+Acceptance criteria:
+
+Adding Projects into Taiga through Console.
+
+Planning poker
+
+Kanav 13 
+Ashik 14 
+Santosh 13 
+Manish: 13",,,,,KanavSharma,Kanav Sharma,,,,,New,False,,13.0,13.0,1644116881874602,1645850987169917,1645850987200551,2022-02-26 04:49:47.200561+00:00,2022-02-26 04:50:03.652926+00:00,,False,False,0,,,,,,integrate_tool,[],0,,,
