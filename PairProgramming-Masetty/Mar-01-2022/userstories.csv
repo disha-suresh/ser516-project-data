@@ -1,0 +1,119 @@
+id,ref,subject,description,sprint_id,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,assigned_users,assigned_users_full_name,status,is_closed,swimlane,ux-points,total-points,backlog_order,sprint_order,kanban_order,created_date,modified_date,finish_date,client_requirement,team_requirement,attachments,generated_from_issue,generated_from_task,from_task_ref,external_reference,tasks,tags,watchers,voters,due_date,due_date_reason,Business Value
+3871268,7,Guet GUI,"As PP I want a visual interface so that I can use guet into a project more conveniently without typing commands.
+
+
+Acceptance Test:
+""guet GUI"" should launch GUI from command-line
+ ",308889,Sprint 1,2022-02-05,2022-02-11,batman124,Kartavya Chauhan,,,,,Done,True,,3.0,3.0,1644024437326790,1,1644024437355542,2022-02-05 01:27:17.355554+00:00,2022-02-15 21:49:37.696544+00:00,2022-02-12 04:13:55.405245+00:00,False,False,0,,,,,"19,24,25",gui,[501770],0,,,
+3871269,8,"Guet GUI - Add, Set, Get & Remove","As a PP I want to add, set, get and remove programmers so that I can manage people in the repository.
+
+Acceptance Criteria:
+
+*   Interface must support adding new committers  
+    Verify using “guet get all”
+*   Interface must support removing existing committers  
+    Verify using “guet get all”
+*   Interface must display list of current/all committers
+*   Interface must support setting committers for the current repository  
+    Verify using “guet get current”",308891,Sprint 3,2022-02-19,2022-02-25,batman124,Kartavya Chauhan,,,,,Done,True,,5.0,5.0,1644024795751756,4,1646109508102512,2022-02-05 01:31:13.924917+00:00,2022-03-01 04:38:28.111447+00:00,2022-02-25 04:55:48.266623+00:00,False,False,0,,,,,"56,57,58,59,60",gui,[],0,,,large
+3871270,9,Guet GUI - Initialization,As a PP I want to initialize guet into the project so that I can use all the guet related functionalities.,308890,Sprint 2,2022-02-12,2022-02-18,batman124,Kartavya Chauhan,,,,,Done,True,,1.0,1.0,1644024795751754,1,1646109429815324,2022-02-05 01:33:15.777453+00:00,2022-03-01 04:37:09.824979+00:00,2022-02-19 03:09:20.948441+00:00,False,False,0,,,,,32,gui,[],0,,,small
+3871275,10,Guet GUI - Remove Config,As a PP I want to remove guet configuration using interface so that I can remove guet config from the repository I am currently working on.,308890,Sprint 2,2022-02-12,2022-02-18,batman124,Kartavya Chauhan,,,,,Done,True,,1.0,1.0,1644024795751755,2,1646109433764436,2022-02-05 01:41:11.096723+00:00,2022-03-01 04:37:13.774673+00:00,2022-02-19 03:10:51.230544+00:00,False,False,0,,,,,35,gui,[],0,,,small
+3871284,11,PP Sessions Tracker,"As a PP I want to track specific PP sessions so that I can attribute multiple commits to a session.
+
+Acceptance Criteria:
+
+
+guet session start should start a new pair programming session.
+
+
+While executing git commit, the timestamp should be added automatically in the comments if the session has started.
+
+
+guet session end should end the pair programming session.",308890,Sprint 2,2022-02-12,2022-02-18,batman124,Kartavya Chauhan,,,,,Archived,False,,5.0,5.0,1644024795751756,4,1646109447978010,2022-02-05 01:45:44.048146+00:00,2022-03-01 04:37:27.985959+00:00,,False,False,0,,,,,"33,34,36,40,41",new feature,[],0,,,large
+3871291,12,Get team members from Taiga,"As a PP I want to get team members from Taiga so that I can set them as committers.
+
+Acceptance Test:
+Successfully display Taiga team members in the guet interface",308889,Sprint 1,2022-02-05,2022-02-11,batman124,Kartavya Chauhan,,,,,Done,True,,3.0,3.0,1644025649070058,2,1644640619579107,2022-02-05 01:47:29.101094+00:00,2022-02-12 04:36:59.588630+00:00,2022-02-15 21:50:26.122670+00:00,False,False,0,,,,,"21,22",tools,[501770],0,,,
+3871295,13,"Build ""ads"" looking for team members to code with",As a PP I want to post ads so that I can inform all the team members that I am looking for one to code with.,,,,,batman124,Kartavya Chauhan,,,,,New,False,,3.0,3.0,1644024795751761,1644025805005584,1644025805039225,2022-02-05 01:50:05.039239+00:00,2022-02-05 01:51:05.252106+00:00,,False,False,0,,,,,,new feature,[],0,,,
+3871303,14,Get issues from GitHub project,As a PP I want to fetch issues from GitHub so that I can work on them.,308890,Sprint 2,2022-02-12,2022-02-18,batman124,Kartavya Chauhan,,,,,Done,True,,2.0,2.0,1644024795751758,3,1646109436146618,2022-02-05 01:52:21.974969+00:00,2022-03-01 04:37:16.155311+00:00,2022-02-19 03:11:23.507141+00:00,False,False,0,,,,,37,tools,[],0,,,small
+3871307,15,"Indicate pairing strategy (driver/observer, senior/junior)","As a PP I want to add a pairing strategy so that I can classify programmers in the commit.
+
+
+Acceptance Test:
+I should be able to designate any one committer as primary/driver.",308889,Sprint 1,2022-02-05,2022-02-11,batman124,Kartavya Chauhan,,,,,Done,True,,3.0,3.0,1644026041513870,3,1644640638128420,2022-02-05 01:54:01.540702+00:00,2022-02-12 04:37:18.139677+00:00,2022-02-12 02:45:27.596085+00:00,False,False,0,,,,,"23,27,28",new feature,[501770],0,,,
+3871318,16,Alphebatize committers list,"As a PP I want to fetch committers list in alphabetical order so that I can find committers easily.
+
+Acceptance Criteria:
+
+\-guet get current
+
+Driver in first position, followed by observers listed alphabetically
+
+\-guet get all
+
+All committers listed alphabetically",308890,Sprint 2,2022-02-12,2022-02-18,batman124,Kartavya Chauhan,,,,,Done,True,,2.0,2.0,1644024795751759,5,1646109443581349,2022-02-05 01:57:07.098684+00:00,2022-03-01 04:37:23.589665+00:00,2022-02-19 03:10:55.250501+00:00,False,False,0,,,,,31,tech debt,[],0,,,x-small
+3871325,17,Warn a user when set committers and commit committers differ,As a PP I want to warn the user when set committers and commit committers are different so that I can avoid errors.,,,,,batman124,Kartavya Chauhan,,,,,New,False,,3.0,3.0,1644024795751762,1644026377598513,1644026377629909,2022-02-05 01:59:37.629921+00:00,2022-02-05 02:03:06.361190+00:00,,False,False,0,,,,,,tech debt,[],0,,,
+3872924,18,guet command not found (Windows),"As a PP I want to be able to use guet on windows machines so that I do not have to use any workarounds.
+
+
+Acceptance Test:
+guet init
+guet add
+guet set 
+guet get
+guet remove
+guet yeet
+
+
+Following commands should work in windows command-line.",308889,Sprint 1,2022-02-05,2022-02-11,vsingh57,Varun Singh,,,,,Done,True,,1.0,1.0,1644026377598452,4,1644640658298602,2022-02-07 02:55:12.080127+00:00,2022-02-12 04:37:38.306574+00:00,2022-02-15 21:50:24.061429+00:00,False,False,0,,,,,26,tech debt,[501770],0,,,
+3884041,29,Post add/remove notifications to Slack,"As a programmer, I want to see guet updates on slack, so that it's convenient to me.
+
+Acceptance criterion:
+Add/remove guet update shown as slack notifications.",308892,Sprint 4,2022-02-26,2022-03-04,vsingh57,Varun Singh,,,,,In progress,False,,3.0,3.0,1644024795751757,1,1646109533377714,2022-02-14 04:42:46.072481+00:00,2022-03-01 04:38:53.387992+00:00,,False,False,0,,,,,"72,74",tools,[],0,,,small
+3884042,30,PP performance and analysis,,,,,,vsingh57,Varun Singh,,,,,New,False,,5.0,5.0,1644024795751763,1644814084062749,1644814084093809,2022-02-14 04:48:04.093836+00:00,2022-02-14 04:48:51.294995+00:00,,False,False,0,,,,,,new feature,[],0,,,medium
+3885913,38,Duplicate users can be added using guet set,"As a user
+I want the program to not set the same committer twice if I mention it multiple times accidentally
+So that it does not confusion in the commit messages",,,,,vsingh57,Varun Singh,,,,,New,False,,,,1644024795751764,1644970988454762,1644970988487321,2022-02-16 00:23:08.487332+00:00,2022-02-16 00:23:08.505738+00:00,,False,False,0,,,,,,tech debt,[],0,,,
+3889056,42,Save team members from taiga as committers,"As a programmer, I want to pull my team members from taiga and add them as committers so that I do not have to add them manually
+
+Acceptance Criteria:
+
+“guet taiga members” should prompt the user after displaying the team members if they would like to add them as committers
+
+“guet get all” should verify that the members have been added",308891,Sprint 3,2022-02-19,2022-02-25,vsingh57,Varun Singh,,,,,Done,True,,3.0,3.0,1644024795751755,3,1646109506210715,2022-02-19 03:22:30.619478+00:00,2022-03-01 04:38:26.222553+00:00,2022-02-26 03:12:37.614328+00:00,False,False,0,,,,,"53,54,55",tools,[],0,,,medium
+3889397,44,Aggregate contributions from each committer,"As a programmer, I want to see contributions from all the other committers, so that I am up to date with my team.
+
+Acceptance criterion:
+Committers contributions are shown accurately like in git log.
+",308892,Sprint 4,2022-02-26,2022-03-04,vsingh57,Varun Singh,,,,,New,False,,5.0,5.0,1644024795751758,2,1645303693660869,2022-02-19 20:48:13.660880+00:00,2022-02-26 22:44:47.568173+00:00,,False,False,0,,,,,"76,77,78",new feature,[],0,,,
+3889400,47,Format github issues for better readability,"As a programmer, I want to be able to see the issues in a readable format so there is no ambiguity.
+
+Acceptance Criteria:
+
+“guet github issues” should print the issues in following format:
+
+Issue# : Issue Title
+
+Description
+
+…",308891,Sprint 3,2022-02-19,2022-02-25,vsingh57,Varun Singh,,,,,Done,True,,1.0,1.0,1644024795751754,2,1646109503444913,2022-02-19 20:49:59.432897+00:00,2022-03-01 04:38:23.453432+00:00,2022-02-26 01:44:44.565048+00:00,False,False,0,,,,,52,tech debt,[],0,,,x-small
+3889494,48,PP session tracking,"Duplicate of #11
+
+As a PP I want to track specific PP sessions so that I can attribute multiple commits to a session.
+
+Acceptance Criteria:
+
+guet session start should start a new pair programming session.
+
+While executing git commit, the timestamp should be added automatically in the comments if the session has started.
+
+guet session end should end the pair programming session.",308891,Sprint 3,2022-02-19,2022-02-25,vsingh57,Varun Singh,,,,,Done,True,,3.0,3.0,1644024795751753,1,1646109500792779,2022-02-19 23:43:43.722336+00:00,2022-03-01 04:38:20.802528+00:00,2022-02-26 02:59:27.119094+00:00,False,False,0,,,,,"49,50,51",new feature,[],0,,,large
+3894380,62,Duplicate committers in GUI - Add button,"As a developer, I want to know if I added an initial already existing in the GUI, so that I can change it then and there.",308892,Sprint 4,2022-02-26,2022-03-04,rajat24488,Rajat Yadav,,,,,New,False,,1.0,1.0,1644024795751759,3,1645677847667717,2022-02-24 04:44:07.667738+00:00,2022-02-26 22:37:09.780297+00:00,,False,False,0,,,,,79,tech debt,[],0,,,
+3896884,64,GUI returns error or success messages for various commands,"As a programmer, I want to know if my command was a success or failure, so that I can know what to do next.
+
+Acceptance criteron:
+Success or failure messages pop up in the GUI",308892,Sprint 4,2022-02-26,2022-03-04,rajat24488,Rajat Yadav,,,,,In progress,False,,3.0,3.0,1644024795751760,4,1646020353192220,2022-02-26 22:17:17.092186+00:00,2022-02-28 03:52:33.201104+00:00,,False,False,0,,,,,"66,67,68,69,70,75",gui,[],0,,,
+3896889,65,GUI should show if a PP already exists in the record when added again,"As a programmer, I want to know if the programmer already exists in the record in GUI itself, so that I can proceed accordingly.
+
+Acceptance criterion:
+GUI returns a message if an identical PP is added again.",,,,,rajat24488,Rajat Yadav,,,,,New,False,,,,1644024795751765,1645914027594689,1645914027621378,2022-02-26 22:20:27.621389+00:00,2022-02-26 22:20:27.637817+00:00,,False,False,0,,,,,,gui,[],0,,,

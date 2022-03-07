@@ -1,0 +1,93 @@
+id,ref,subject,description,sprint_id,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,assigned_users,assigned_users_full_name,status,is_closed,swimlane,ux-points,total-points,backlog_order,sprint_order,kanban_order,created_date,modified_date,finish_date,client_requirement,team_requirement,attachments,generated_from_issue,generated_from_task,from_task_ref,external_reference,tasks,tags,watchers,voters,due_date,due_date_reason,Business value
+3871192,1,GUI for guet init command,"As a committer i want the guet program to provide the GUI for guet init command, so that it is easier to use the program.
+
+Acceptance criteria: 
+
+1)Accept and validate repository path 
+
+2) Check if git is initialized
+
+3)check if guet is initialized
+
+4) if either git or guet are not  initialized display message stating the same and provide a button to initialize guet configuration.
+
+5) if guet is already initialized display a method statin it is already initialized.",311523,Sprint 4,2022-02-26,2022-03-04,rthakka9,Rajalaxman,,,,,New,True,,8.0,8.0,1644198753675421,4,1644014863023919,2022-02-04 22:47:43.023947+00:00,2022-02-19 22:35:42.584611+00:00,2022-03-02 11:03:11.207038+00:00,False,False,0,,,,,"17,18,19,20,45",,[502609],0,,,x-large
+3872850,7,GUI for guet add command,"As a committer I want the guet program to provide the GUI for guet add command so that it is easier to use the program.
+
+Acceptance criteria:
+
+1)Accept commiters identifier, name and email address 
+
+2)If committers details are already present display a warning message stating the data will be ovewritten.
+
+2.1)  If proceed button is clicked go ahead with the operation and over ride the data.
+
+2.2)  If cancel is clicked abort the operation.
+3) If commiter details are not present already go ahead and add the committer.",,,,,hrjune1699,Harshith Godishala,,,,,New,False,,5.0,5.0,1644198753675419,6,1644198753703474,2022-02-07 01:52:33.703518+00:00,2022-02-08 19:40:53.960805+00:00,,False,False,0,,,,,"42,43,44,46,47,61",,[502609],0,,,x-large
+3872852,8,GUI for get command,"As a committer, I want the guet program to provide the GUI for guet get command so that it is easier to use the program.",,,,,hrjune1699,Harshith Godishala,,,,,New,False,,8.0,8.0,1644198753675421,1644198908168408,1644198908198471,2022-02-07 01:55:08.198481+00:00,2022-02-08 19:46:36.346899+00:00,,False,False,0,,,,,,,[502609],0,,,x-large
+3872853,9,GUI for set command,"As a committer, i want the guet program to provide the GUI for guet set command so that it is easier to use the program.",,,,,hrjune1699,Harshith Godishala,,,,,New,False,,5.0,5.0,1644198753675424,1644199027378327,1644199027405383,2022-02-07 01:57:07.405393+00:00,2022-02-08 19:46:08.443795+00:00,,False,False,0,,,,,,,[502609],0,,,x-large
+3872854,10,GUI for remove command,"As a committer, i want the guet program to provide the GUI for guet remove command so that it is easier to use the program.",,,,,hrjune1699,Harshith Godishala,,,,,New,False,,5.0,5.0,1644198753675422,1644199081873583,1644199081900484,2022-02-07 01:58:01.900500+00:00,2022-02-08 19:45:49.184055+00:00,,False,False,0,,,,,,,[502609],0,,,x-large
+3872855,11,GUI for yeet command,"As a committer, i want the guet program to provide the GUI for guet yeet command so that it is easier to use the program.",,,,,hrjune1699,Harshith Godishala,,,,,New,False,,5.0,5.0,1644198753675423,1644199110224348,1644199110253727,2022-02-07 01:58:30.253739+00:00,2022-02-08 19:43:28.041510+00:00,,False,False,0,,,,,,,[502609],0,,,x-large
+3872859,12,Get team members from taiga,"As a team lead, I want the program to fetch the team members so that I don't have to add them manually.
+
+Acceptance criteria:
+
+1.  connect with the taiga API.
+2.  pull team member information.
+3.  Add team members as committers.
+4.  A print message asking if all team members must be set as current committers.
+5.  Accept yes/no response to the above message.
+6.  If Yes set all team members as current committers and print current committers.
+7.  If No end the process & Print all committers",308998,Sprint 1,2022-02-05,2022-02-11,hrjune1699,Harshith Godishala,,,,,New,True,,8.0,8.0,1644199279100465,4,1644199279130349,2022-02-07 02:01:19.130364+00:00,2022-02-08 19:41:16.201217+00:00,2022-02-25 23:50:09.244733+00:00,False,False,0,,,,,"23,24,25",,[502609],0,,,large
+3872864,13,Initializing guet issue.,"As a developer i want the program to respond by stating guet is already initialized if the repository has already had a guet configuration so that I can check if it is already initialized.
+
+Acceptance criteria:
+
+1.  check if guet is already initialized.
+2.  If it is initialized print the message stating a config already exists.
+3.  Initialize config and print “successfully Initalized” if config does not exist already.",308998,Sprint 1,2022-02-05,2022-02-11,hrjune1699,Harshith Godishala,,,,,New,True,,2.0,2.0,1644199856468520,3,1644199856498828,2022-02-07 02:10:56.498837+00:00,2022-02-08 19:35:34.747886+00:00,2022-02-25 23:50:06.389772+00:00,False,False,0,,,,,27,bug fix,[502609],0,,,large
+3872872,14,Delete guet configuration is not working,"As a developer i want the guet yeet command's output to state if the config is removed or not depending on whether there was a config before, so it is clear to me whether the config is removed or if there exists no config before.
+
+Acceptancecriteria:  When the Yeet command is runned. 
+1) If there is guet folder it should print  "" guet tracking removed from this repository""
+2) If there is no guet folder it should print ""No local guet configuration for this project""",309611,Sprint 2,2022-02-12,2022-02-18,hrjune1699,Harshith Godishala,,,,,New,True,,2.0,2.0,1644198753675423,7,1644200176249887,2022-02-07 02:16:16.249914+00:00,2022-02-19 09:05:35.198936+00:00,2022-02-19 09:10:40.452599+00:00,False,False,0,,,,,32,bug fix,[502609],0,,,medium
+3872880,15,integrate git to verify committers.,"As a project manager, I want the committers to be verified so that the integrity of the committers is maintained.
+
+Acceptance Criteria:  
+\- Modify add command parameters to include flag --verify so that verification is done only when opted  
+\- Take the user initials and check with github api and verify if the user exists and the email address given is correct.  
+\- If incorrect credentials (initials or email address) are given, then print a message saying ‘Incorrect credentials given for committer <name of committer>’  
+\- If all credentials are correct, then add the committer to the list of committers.",311523,Sprint 4,2022-02-26,2022-03-04,hrjune1699,Harshith Godishala,,,,,New,True,,10.0,10.0,1644198753675416,2,1644200308600504,2022-02-07 02:18:28.600515+00:00,2022-02-27 19:49:50.639553+00:00,2022-03-03 05:40:04.878502+00:00,False,False,0,,,,,"52,53,54",,[502609],0,,,xx-large
+3873700,16,Pairing strategy,"As a team lead, I want the program to mention the pairing strategy in every commit so that it makes the job easy.
+
+Acceptance criteria:
+
+1.  Accept pairing strategy as a parameter, while using set command.
+2.  Add pairing strategy to the co-author list.
+3.  Commits to github should include a pairing strategy.",310933,Sprint3,2022-02-19,2022-02-26,hrjune1699,Harshith Godishala,,,,,New,True,,10.0,10.0,1644198753675417,1,1644261678845397,2022-02-07 19:21:18.845407+00:00,2022-02-19 22:35:08.720506+00:00,2022-02-25 21:31:45.615732+00:00,False,False,0,,,,,"21,22,39",,[502609],0,,,medium
+3878000,28,Add pairing strategy to get command,"As team lead, I would like to see pairing strategy for current committers, so that it is easier to check which combination is used to pair developers",309611,Sprint 2,2022-02-12,2022-02-18,rahulvuppula,rahul Vuppula,,,,,New,True,,5.0,5.0,1644198753675422,6,1644539150804420,2022-02-11 00:25:50.804446+00:00,2022-02-11 00:25:50.822210+00:00,2022-02-19 11:13:46.778899+00:00,False,False,0,,,,,"33,34",,[],0,,,large
+3879932,29,Add the names of committers to comments on taiga task,"As a project manager, I want guet to push a comment on taiga with the names of people working on the task, so that I can see who is working on which task.",309611,Sprint 2,2022-02-12,2022-02-18,kskd1804,Sai Kousthubha Das Kalvakolanu ,,,,,New,True,,8.0,8.0,1644198753675412,4,1644655634088382,2022-02-12 08:47:14.088394+00:00,2022-02-12 08:47:14.105463+00:00,2022-02-17 01:05:38.400990+00:00,False,False,0,,,,,"30,31,38",,[],0,,,xx-large
+3882557,35,Alphabetize committers list,"As a developer, I want to see the committers list in an alphabetical order, so it is easy to search for people in the list
+Acceptance criteria: Display the list of committers in an alphabetical order ""geut get all""and ""geut get current"".",310933,Sprint3,2022-02-19,2022-02-26,kskd1804,Sai Kousthubha Das Kalvakolanu ,,,,,New,True,,5.0,5.0,1644198753675425,4,1644766491924368,2022-02-13 15:34:51.924390+00:00,2022-02-19 22:42:31.077990+00:00,2022-02-26 22:38:13.475997+00:00,False,False,0,,,,,"40,41",,[],0,,,medium
+3882686,36,Validate email address while adding committer,"As a project manager, I want guet to validate email addresses, so that no incorrect email addresses can enter the commit messages on github.
+
+Acceptance Criteria:  
+\- While executing guet add command check the email address to match with a regex.  
+\- If invalid email address given, print stating email address is invalid.  
+\- If correct email address given, add committer to the list.",311523,Sprint 4,2022-02-26,2022-03-04,kskd1804,Sai Kousthubha Das Kalvakolanu ,,,,,New,True,,5.0,5.0,1644198753675426,1,1645261959250933,2022-02-13 15:46:09.733504+00:00,2022-02-27 20:03:00.966045+00:00,2022-03-05 05:36:46.996216+00:00,False,False,0,,,,,"50,51",bug fix,[],0,,,large
+3882726,37,Remove all committers,"As a team lead, I want to be able to remove all committers with a single command, so that it is easier when I need to clear all committers
+
+Acceptance Criteria:  
+\- Modify parameter list for remove command to include --all flag.  
+\- Remove all committers from the machine when --all flag is given for remove command  
+\- Print list of committers to show no committers are left.",311523,Sprint 4,2022-02-26,2022-03-04,kskd1804,Sai Kousthubha Das Kalvakolanu ,,,,,New,True,,5.0,5.0,1644198753675425,3,1644767427904742,2022-02-13 15:50:27.904754+00:00,2022-02-27 19:51:30.736533+00:00,2022-03-03 16:37:15.757863+00:00,False,False,0,,,,,"55,56,57",,[],0,,,large
+3896650,48,Git hooks are incorrectly created for windows (Technical Debt),"As a developer, I want guet to recognize windows manage python.exe and generate hooks accordingly, so that I do not need to disable manage apps functionality in windows.
+
+Acceptance Criteria:  
+\- Check which python version is installed on the machine  
+\- Check if the python.exe file which is found is not pointing to ‘Windows Manage Extensions’ executable.  
+\- Update git hooks with python or python3 shebang depending on which version is installed.",311523,Sprint 4,2022-02-26,2022-03-04,kskd1804,Sai Kousthubha Das Kalvakolanu ,,,,,New,True,,5.0,5.0,1644198753675427,5,1645893277827713,2022-02-26 16:34:37.827728+00:00,2022-02-27 20:00:48.962157+00:00,2022-03-05 05:18:48.961844+00:00,False,False,0,,,,,"58,59",bug,[],0,,,x-large
+3896651,49,Save pairing strategy upon commit,"As a team leader, I want guet to store the pairing strategy even after commit is completed, so that i don't have to set the pairing strategy after every commit
+
+Acceptance Criteria:   
+\- Pairing strategy should be stored in the config file even after commits are done (Right now pairing strategy is active in the config file only for a single commit).",,,,,kskd1804,Sai Kousthubha Das Kalvakolanu ,,,,,New,False,,5.0,5.0,1644198753675420,7,1645893354755509,2022-02-26 16:35:54.755520+00:00,2022-02-27 20:07:50.568467+00:00,,False,False,0,,,,,60,bug fix,[],0,,,
