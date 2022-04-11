@@ -1,0 +1,36 @@
+id,ref,subject,description,sprint_id,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,assigned_users,assigned_users_full_name,status,is_closed,swimlane,front-points,total-points,backlog_order,sprint_order,kanban_order,created_date,modified_date,finish_date,client_requirement,team_requirement,attachments,generated_from_issue,generated_from_task,from_task_ref,external_reference,tasks,tags,watchers,voters,due_date,due_date_reason,BV
+3931524,1,User Interface,"As a project manager, I want an interface so that it is convenient for me to fetch the project data and analyze the visualization.
+
+Definition of Done:
+
+*   The user is able to interact with the interface to fetch the project data
+
+Acceptance Criteria:
+
+*   Should be able to receive user-provided input via form.
+*   A button to submit the data to API Gateway
+*   Validate the given inputs",314258,Sprint 1,2022-03-28,2022-04-02,arajula,Achuth Reddy Rajula ,,,,,New,True,,5.0,5.0,1648508591206785,1,1648508591235302,2022-03-28 23:03:11.235314+00:00,2022-03-28 23:09:09.424933+00:00,2022-04-01 03:42:48.509746+00:00,False,False,0,,,,,"2,3,4",,[],0,,,10
+3931532,5,API endpoints,"As a developer, I want to allocate the endpoints to specific microservices.
+
+Definition of Done:
+* Be able to interact with expected microservice.
+
+Acceptance Criteria:
+
+* Map the endpoints to their respective microservice",314258,Sprint 1,2022-03-28,2022-04-02,arajula,Achuth Reddy Rajula ,,,,,New,False,,4.0,4.0,1648509415323401,2,1648509415354111,2022-03-28 23:16:55.354121+00:00,2022-03-28 23:16:55.372477+00:00,,False,False,0,,,,,"6,7,8",,[],0,,,6
+3931550,9,Container setup,"As a developer, I want to deploy my code into a container so that it is easy for me to ship my code and can interact with other microservices without much friction.
+
+Definition of Done: 
+* Deploy the code into a container.
+
+Acceptance criteria:
+* Write a dockerfile for the project
+* Build a docker image using the docker file",314258,Sprint 1,2022-03-28,2022-04-02,arajula,Achuth Reddy Rajula ,,,,,New,False,,5.0,5.0,1648509825487156,3,1648509825513439,2022-03-28 23:23:45.513448+00:00,2022-03-28 23:23:45.529859+00:00,,False,False,0,,,,,"10,11",,[],0,,,8
+3931556,12,Setup React Router,"As a developer, I want a react-router so that, It's convenient for me to handle page navigation.
+
+Definition of Done: 
+* Be able to easily navigate between various pages.
+
+Acceptance Criteria:
+* Use react-router to handle navigation.
+* Setup appropriate links to the pages.",314258,Sprint 1,2022-03-28,2022-04-02,arajula,Achuth Reddy Rajula ,,,,,New,True,,4.0,4.0,1648510086093011,4,1648510086120663,2022-03-28 23:28:06.120674+00:00,2022-03-28 23:28:06.138736+00:00,2022-04-02 16:29:11.754245+00:00,False,False,0,,,,,"13,14",,[],0,,,7

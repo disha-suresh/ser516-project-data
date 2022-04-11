@@ -1,0 +1,14 @@
+id,ref,subject,description,sprint_id,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,assigned_users,assigned_users_full_name,status,is_closed,swimlane,back-points,total-points,backlog_order,sprint_order,kanban_order,created_date,modified_date,finish_date,client_requirement,team_requirement,attachments,generated_from_issue,generated_from_task,from_task_ref,external_reference,tasks,tags,watchers,voters,due_date,due_date_reason
+3931645,1,Container setup,"As a developer, I want to deploy my code into a container so that it is easy for me to share my code and can interact with other microservices without much friction.
+
+Definition of Done:
+
+    Deploy the code into a container.
+
+Acceptance criteria:
+
+    Write a dockerfile for the project
+    Build a docker image using the docker file",314275,Sprint#1,2022-03-28,2022-04-02,Shivani2197,Shivani Sanjay Patil,,,,,New,False,,5.0,5.0,1648520397141045,1,1648520397168882,2022-03-29 02:19:57.168909+00:00,2022-03-29 02:36:17.625285+00:00,,False,False,0,,,,,"10,11,12",,[],0,,
+3931646,2,End Points for API,,314275,Sprint#1,2022-03-28,2022-04-02,Shivani2197,Shivani Sanjay Patil,,,,,New,False,,3.0,3.0,1648521366581932,2,1648521366611135,2022-03-29 02:36:06.611145+00:00,2022-03-29 02:36:21.237897+00:00,,False,False,0,,,,,6,,[],0,,
+3931647,3,Setting up code base,"As a developer, I want to create a initial code base so that it is easily accessible to us",314275,Sprint#1,2022-03-28,2022-04-02,Shivani2197,Shivani Sanjay Patil,,,,,New,False,,3.0,3.0,1648521401239180,3,1648521401266981,2022-03-29 02:36:41.266995+00:00,2022-03-29 02:40:06.061587+00:00,,False,False,0,,,,,"4,5",,[],0,,
+3931655,7,Generate JSON response,,314275,Sprint#1,2022-03-28,2022-04-02,Shivani2197,Shivani Sanjay Patil,,,,,New,False,,3.0,3.0,1648521805817677,4,1648521805849726,2022-03-29 02:43:25.849741+00:00,2022-03-29 02:43:52.579934+00:00,,False,False,0,,,,,"8,9",,[],0,,

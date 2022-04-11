@@ -1,0 +1,29 @@
+id,ref,subject,description,sprint_id,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,assigned_users,assigned_users_full_name,status,is_closed,swimlane,ux-points,total-points,backlog_order,sprint_order,kanban_order,created_date,modified_date,finish_date,client_requirement,team_requirement,attachments,generated_from_issue,generated_from_task,from_task_ref,external_reference,tasks,tags,watchers,voters,due_date,due_date_reason,Business Value
+3872846,1,Build a GUI,"As a user I want a GUI to be implemented so that it looks and feels good while using the tool
+ 
+Acceptance criteria:
+
+
+Definition of done:",,,,,Varshik,Varshik Sonti,,,,,New,False,,3.0,3.0,1644198325058905,1644198325058975,1644198325092070,2022-02-07 01:45:25.092084+00:00,2022-02-07 01:45:25.110341+00:00,,False,False,0,,,,,,,[],0,,,
+3872849,2,Getting list of committers,"As a user, I want to get the list of committers when using guet in alphabetical order so that the list of committers is organized and makes it easier to search for information.
+
+Acceptance criteria:
+- 
+
+Definition of Done:
+-",,,,,Shivani2197,Shivani Sanjay Patil,,,,,New,False,,5.0,5.0,1644198602970623,1644198602970689,1644198602997789,2022-02-07 01:50:02.997806+00:00,2022-02-07 01:50:03.014274+00:00,,False,False,0,,,,,,,[],0,,,
+3872851,3,Track Peer Programming Sessions,"As a user, I want to track specific peer programming sessions so that I could keep a track of the progress.
+
+Acceptance Criteria:
+
+Definition of Done:",,,,,arajula,Achuth Reddy Rajula ,,,,,New,False,,4.0,4.0,1644198863929215,1644198863929298,1644198863961433,2022-02-07 01:54:23.961444+00:00,2022-02-07 01:55:51.278433+00:00,,False,False,0,,,,,,,[],0,,,
+3872856,4,Fetch Team Members from Taiga,"As a user I want to fetch team members from Taiga so that collaboration becomes easy
+
+Acceptance Criteria:
+
+Definition of Done:",,,,,agiliyal,Apoorva Giliyal,,,,,New,False,,3.0,3.0,1644199160207438,1644199160207509,1644199160237678,2022-02-07 01:59:20.237694+00:00,2022-02-07 01:59:20.256370+00:00,,False,False,0,,,,,,,[],0,,,
+3872861,5,Send invitations to collaborate,"As a user, I want to send out invitations to people to collaborate so that I can host a pair programming session.
+
+Acceptance criteria:
+
+Definition of Done:",,,,,arajula,Achuth Reddy Rajula ,,,,,New,False,,3.0,3.0,1644199466128118,1644199466128182,1644199466154691,2022-02-07 02:04:26.154700+00:00,2022-02-07 02:04:26.170321+00:00,,False,False,0,,,,,,,[],0,,,

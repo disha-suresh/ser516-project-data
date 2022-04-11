@@ -1,0 +1,79 @@
+id,ref,subject,description,sprint_id,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,assigned_users,assigned_users_full_name,status,is_closed,swimlane,back-points,design-points,front-points,ux-points,total-points,backlog_order,sprint_order,kanban_order,created_date,modified_date,finish_date,client_requirement,team_requirement,attachments,generated_from_issue,generated_from_task,from_task_ref,external_reference,tasks,tags,watchers,voters,due_date,due_date_reason
+3927011,2,As a client I want to be able to make a GET request to the docker container,,,,,,rbjacks3,Rephael B Jackson,,,,,New,False,,,,,,,1648152919893817,1648152919893828,1648152919893831,2022-03-24 20:15:19.893839+00:00,2022-03-24 20:18:31.408875+00:00,,False,False,0,,,,,,team1,[],0,,
+3927012,3,As a client I want to be able to pull data from a taiga board,,313807,Sprint 1,2022-03-24,2022-04-03,rbjacks3,Rephael B Jackson,,,,,New,False,,,,,8.0,8.0,1648152919894031,4,1648152919894038,2022-03-24 20:15:19.894042+00:00,2022-03-25 23:02:25.918180+00:00,,False,False,0,,,,,"11,24,25,26,54",team1,[],0,,
+3927014,5,As a developer I want a Dockerfile to create an image,,313807,Sprint 1,2022-03-24,2022-04-03,rbjacks3,Rephael B Jackson,,,,,New,True,,,,,2.0,2.0,1648152919894253,3,1648152919894259,2022-03-24 20:15:19.894262+00:00,2022-03-25 23:01:40.584055+00:00,2022-03-30 01:51:58.728178+00:00,False,False,0,,,,,9,team1,[],0,,
+3927015,6,As a user I want clear instructions for running the docker container,,313807,Sprint 1,2022-03-24,2022-04-03,rbjacks3,Rephael B Jackson,,,,,New,True,,,,,2.0,2.0,1648152919894358,5,1648152919894363,2022-03-24 20:15:19.894366+00:00,2022-03-25 23:03:01.774208+00:00,2022-03-30 19:41:45.371196+00:00,False,False,0,,,,,12,team1,[],0,,
+3927016,7,As a developer I want an endpoint that gives the endpoints available to the container,,,,,,rbjacks3,Rephael B Jackson,,,,,New,False,,,,,,,1648152919894475,1648152919894479,1648152919894481,2022-03-24 20:15:19.894484+00:00,2022-03-24 20:19:00.192554+00:00,,False,False,0,,,,,,team1,[],0,,
+3928647,13,As a Scrum developer I want a homepage where I can select a metric so that I can see the visualization,,313807,Sprint 1,2022-03-24,2022-04-03,dbiegan,David Bieganski ,,,,,New,False,,,,,13.0,13.0,1648242686318760,6,1648242686346841,2022-03-25 21:11:26.346854+00:00,2022-03-25 21:11:26.366767+00:00,,False,False,0,,,,,"16,18,19,20,51,52,53",team4,[],0,,
+3928649,14,As a developer I want to create a Docker image file so that it includes all of the development dependencies,,313807,Sprint 1,2022-03-24,2022-04-03,dbiegan,David Bieganski ,,,,,New,True,,,,,5.0,5.0,1648242740110358,11,1648242740145869,2022-03-25 21:12:20.145878+00:00,2022-03-25 21:12:30.242798+00:00,2022-03-30 00:17:25.815452+00:00,False,False,0,,,,,"17,21",team4,[],0,,
+3928654,15,As a developer I want a sample data set so that I can figure out how to render it in the visualization view,,313807,Sprint 1,2022-03-24,2022-04-03,dbiegan,David Bieganski ,,,,,New,False,,,,,5.0,5.0,1648243125030525,14,1648243125058652,2022-03-25 21:18:45.058667+00:00,2022-03-25 21:18:59.627082+00:00,,False,False,0,,,,,22,team4,[],0,,
+3929067,28,As a user I need instructions for running the docker container,,313807,Sprint 1,2022-03-24,2022-04-03,akhil-baktha,Akhil Baktha,,,,,New,False,,2.0,,,,2.0,1648327490873237,8,1648327490909066,2022-03-26 20:44:50.909085+00:00,2022-03-26 20:45:57.001400+00:00,,False,False,0,,,,,32,team3,[],0,,
+3929073,29,"As a developer i need to be able to calculate the metric ""Task Excess"" using the Taiga API's.",,313807,Sprint 1,2022-03-24,2022-04-03,akhil-baktha,Akhil Baktha,,,,,New,False,,8.0,,,,8.0,1648327796092970,7,1648327796124408,2022-03-26 20:49:56.124421+00:00,2022-03-26 20:50:24.335998+00:00,,False,False,0,,,,,"33,34,35,36,62",team3,[],0,,
+3929075,30,As a developer I want a Dockerfile to create a Docker Image,,313807,Sprint 1,2022-03-24,2022-04-03,akhil-baktha,Akhil Baktha,,,,,New,False,,2.0,,,,2.0,1648327871341807,9,1648327871372480,2022-03-26 20:51:11.372491+00:00,2022-03-26 20:51:31.970853+00:00,,False,False,0,,,,,37,team3,[],0,,
+3929076,31,"As a client of the microservice of ""Task Excess"" i want to be able to pull the ""Task Excess"" metric by sending a request",,313807,Sprint 1,2022-03-24,2022-04-03,akhil-baktha,Akhil Baktha,,,,,New,False,,5.0,,,,5.0,1648328013850884,10,1648328013879358,2022-03-26 20:53:33.879367+00:00,2022-03-26 20:54:06.348489+00:00,,False,False,0,,,,,38,team3,[],0,,
+3929186,39,Docker container setup: Focus Factor,"As a developer,     
+I want to setup docker container for Focus Factor metric   
+So that it is available to be consumed by API interface.
+
+Acceptance criteria:      
+Docker container running successfully.
+
+Planning poker
+
+Kartavya: 5
+
+Abhishek: 5
+
+Jacob: 8
+
+Rahul: 5
+
+Kanav: 8",313807,Sprint 1,2022-03-24,2022-04-03,KanavSharma,Kanav Sharma,,,,,New,False,,5.0,,,,5.0,1648331053293843,18,1648330690949874,2022-03-26 21:38:10.949884+00:00,2022-03-26 22:04:28.600459+00:00,,False,False,0,,,,,"46,47,48,49",team2,[],0,,
+3929187,40,Docker Container setup- Work Capacity,"As a developer,  
+I want to setup docker container for Work Capacity metric
+So that it is available to be consumed by API interface.
+
+Acceptance criteria:   
+Docker container running successfully.",313807,Sprint 1,2022-03-24,2022-04-03,KanavSharma,Kanav Sharma,,,,,New,False,,5.0,,,,5.0,1648330747305157,15,1648330747334085,2022-03-26 21:39:07.334096+00:00,2022-03-26 22:05:15.787539+00:00,,False,False,0,,,,,"60,61,63,64",team2,[],0,,
+3929188,41,Taiga API to fetch focus factor from Taiga,"As a developer,   
+I want to fetch focus factor metric data from Taiga API   
+So that it can be used/manipulated by the service logic downstream.
+
+Acceptance criteria:   
+Availability of Taiga API, giving proper results, if executed through clients like postman/SOAP UI.
+
+Planning Poker
+
+Jacob: 8
+
+Kanav: 5
+
+Abhishek: 3
+
+Kartavya: 3
+
+Rahul: 8",313807,Sprint 1,2022-03-24,2022-04-03,KanavSharma,Kanav Sharma,,,,,New,False,,5.0,,,,5.0,1648331053293842,13,1648331053324787,2022-03-26 21:44:13.324799+00:00,2022-03-26 22:09:08.549402+00:00,,False,False,0,,,,,,team2,[],0,,
+3929189,42,Taiga API for Work Capacity,"As a developer,   I want to work capacity factor metric data from Taiga API So that it can be used/manipulated by the service logic downstream.  
+
+Acceptance criteria: Availability of Taiga API, giving proper results, if executed through clients like postman/SOAP UI.",313807,Sprint 1,2022-03-24,2022-04-03,KanavSharma,Kanav Sharma,,,,,New,False,,5.0,,,,5.0,1648331053293844,17,1648331165380949,2022-03-26 21:46:05.380961+00:00,2022-03-26 22:09:18.318944+00:00,,False,False,0,,,,,,team2,[],0,,
+3929190,43,Documentation for executing Focus Factor & Work Capacity,"As a user I want clear instructions for running the docker container   
+so that user using API have clear information of usage and examples
+
+Acceptance Criteria:
+
+README file for fetching metric for Focus Factor & work capacity
+
+Service Names, end points and \[ports being exposed to be consumed by frontend.",313807,Sprint 1,2022-03-24,2022-04-03,KanavSharma,Kanav Sharma,,,,,New,False,,2.0,,,,2.0,1648331356477254,12,1648331356509386,2022-03-26 21:49:16.509395+00:00,2022-03-26 22:05:45.161571+00:00,,False,False,0,,,,,,team2,[],0,,
+3929192,44,Service Implementation for manipulating Focus factor,"As a developer I want to implement logic to manipulate taiga API data received
+so that output is a feed to frontend for display.
+
+Acceptance Criteria:
+- Running services, hosted on container giving Focus Factor for a specified Taiga project
+- Json Output",,,,,KanavSharma,Kanav Sharma,,,,,New,False,,8.0,,,,8.0,1648331053293845,1648331932326572,1648331932356508,2022-03-26 21:58:52.356519+00:00,2022-03-26 22:11:23.943200+00:00,,False,False,0,,,,,,team2,[],0,,
+3929193,45,Service implementation for work capacity,"As a developer I want to implement logic for work capacity to manipulate taiga API data received
+so that output is a feed to frontend for display.
+
+Acceptance Criteria:
+- Running services, hosted on container giving Work Capacity for a specified Taiga project
+- Json Output",313807,Sprint 1,2022-03-24,2022-04-03,KanavSharma,Kanav Sharma,,,,,New,False,,5.0,,,,5.0,1648331053293846,16,1648331982868942,2022-03-26 21:59:42.868952+00:00,2022-03-26 22:11:43.227901+00:00,,False,False,0,,,,,,team2,[],0,,
+3934043,55,Create diagrams for data representation.,,313807,Sprint 1,2022-03-24,2022-04-03,rbjacks3,Rephael B Jackson,,,,,New,False,,,,,5.0,5.0,1648661906463918,2,1648661906463934,2022-03-30 17:38:26.463942+00:00,2022-03-30 17:38:47.169847+00:00,,False,False,0,,,,,59,team1,[],0,,

@@ -1,2 +1,0 @@
-id,ref,subject,description,owner,owner_full_name,assigned_to,assigned_to_full_name,status,epics_order,client_requirement,team_requirement,attachments,tags,watchers,voters,created_date,modified_date,related_user_stories,Business Value
-158329,64,Integrate Tiaga User Stories  in Poker app,,adidesi,Aditya Desai,,,New,1644691094467,False,False,0,,[],0,2022-02-12 18:38:14.495957+00:00,2022-02-12 18:51:14.207726+00:00,"adidesi-ser-516-spr22-team-sonic-project-1-planning-poker#27,adidesi-ser-516-spr22-team-sonic-project-1-planning-poker#65",large

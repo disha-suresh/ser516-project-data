@@ -1,0 +1,100 @@
+id,ref,subject,description,sprint_id,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,assigned_users,assigned_users_full_name,status,is_closed,swimlane,back-points,design-points,front-points,ux-points,total-points,backlog_order,sprint_order,kanban_order,created_date,modified_date,finish_date,client_requirement,team_requirement,attachments,generated_from_issue,generated_from_task,from_task_ref,external_reference,tasks,tags,watchers,voters,due_date,due_date_reason
+3927012,3,As a client I want to be able to pull data from a taiga board,,313807,Sprint 1,2022-03-24,2022-04-03,rbjacks3,Rephael B Jackson,,,,,New,True,,,,,8.0,8.0,1648152919894031,5,1648152919894038,2022-03-24 20:15:19.894042+00:00,2022-03-25 23:02:25.918180+00:00,2022-04-02 19:47:51.675844+00:00,False,False,0,,,,,"11,24,25,26,54,71,75,76",team1,[],0,,
+3927014,5,As a developer I want a Dockerfile to create an image,,313807,Sprint 1,2022-03-24,2022-04-03,rbjacks3,Rephael B Jackson,,,,,New,True,,,,,2.0,2.0,1648152919894253,4,1648152919894259,2022-03-24 20:15:19.894262+00:00,2022-03-25 23:01:40.584055+00:00,2022-03-30 01:51:58.728178+00:00,False,False,0,,,,,9,team1,[],0,,
+3927015,6,As a user I want clear instructions for running the docker container,,313807,Sprint 1,2022-03-24,2022-04-03,rbjacks3,Rephael B Jackson,,,,,New,True,,,,,2.0,2.0,1648152919894358,6,1648152919894363,2022-03-24 20:15:19.894366+00:00,2022-03-25 23:03:01.774208+00:00,2022-03-30 19:41:45.371196+00:00,False,False,0,,,,,12,team1,[],0,,
+3927016,7,As a developer I want an endpoint that gives the endpoints available to the container,,,,,,rbjacks3,Rephael B Jackson,,,,,New,False,,,,,,,1648152919894475,1648152919894479,1648152919894481,2022-03-24 20:15:19.894484+00:00,2022-03-24 20:19:00.192554+00:00,,False,False,0,,,,,,team1,[],0,,
+3928647,13,As a Scrum developer I want a homepage where I can select a metric so that I can see the visualization,,313807,Sprint 1,2022-03-24,2022-04-03,dbiegan,David Bieganski ,,,,,New,True,,,,,13.0,13.0,1648242686318760,7,1648242686346841,2022-03-25 21:11:26.346854+00:00,2022-03-25 21:11:26.366767+00:00,2022-04-03 22:22:36.161114+00:00,False,False,0,,,,,"16,19,20,51,52,53,84,109",team4,[],0,,
+3928649,14,As a developer I want to create a Docker image file so that it includes all of the development dependencies,,313807,Sprint 1,2022-03-24,2022-04-03,dbiegan,David Bieganski ,,,,,New,True,,,,,5.0,5.0,1648242740110358,12,1648242740145869,2022-03-25 21:12:20.145878+00:00,2022-03-25 21:12:30.242798+00:00,2022-03-30 00:17:25.815452+00:00,False,False,0,,,,,"17,21",team4,[],0,,
+3928654,15,As a developer I want a sample data set so that I can figure out how to render it in the visualization view,,313807,Sprint 1,2022-03-24,2022-04-03,dbiegan,David Bieganski ,,,,,New,True,,,,,5.0,5.0,1648243125030525,15,1648243125058652,2022-03-25 21:18:45.058667+00:00,2022-03-25 21:18:59.627082+00:00,2022-04-02 00:10:48.914133+00:00,False,False,0,,,,,70,team4,[],0,,
+3929067,28,As a user I need instructions for running the docker container,,313807,Sprint 1,2022-03-24,2022-04-03,akhil-baktha,Akhil Baktha,,,,,New,True,,2.0,,,,2.0,1648327490873237,9,1648327490909066,2022-03-26 20:44:50.909085+00:00,2022-03-26 20:45:57.001400+00:00,2022-04-03 01:39:17.892328+00:00,False,False,0,,,,,32,team3,[],0,,
+3929073,29,"As a developer i need to be able to calculate the metric ""Task Excess"" using the Taiga API's.",,313807,Sprint 1,2022-03-24,2022-04-03,akhil-baktha,Akhil Baktha,,,,,New,True,,8.0,,,,8.0,1648327796092970,8,1648327796124408,2022-03-26 20:49:56.124421+00:00,2022-03-26 20:50:24.335998+00:00,2022-04-02 23:31:09.215559+00:00,False,False,0,,,,,"33,34,35,36,62",team3,[],0,,
+3929075,30,As a developer I want a Dockerfile to create a Docker Image,,313807,Sprint 1,2022-03-24,2022-04-03,akhil-baktha,Akhil Baktha,,,,,New,True,,2.0,,,,2.0,1648327871341807,10,1648327871372480,2022-03-26 20:51:11.372491+00:00,2022-03-26 20:51:31.970853+00:00,2022-04-03 00:22:47.133791+00:00,False,False,0,,,,,37,team3,[],0,,
+3929076,31,"As a client of the microservice of ""Task Excess"" i want to be able to pull the ""Task Excess"" metric by sending a request",,313807,Sprint 1,2022-03-24,2022-04-03,akhil-baktha,Akhil Baktha,,,,,New,True,,5.0,,,,5.0,1648328013850884,11,1648328013879358,2022-03-26 20:53:33.879367+00:00,2022-03-26 20:54:06.348489+00:00,2022-04-03 23:18:45.076675+00:00,False,False,0,,,,,38,team3,[],0,,
+3929186,39,Docker container setup: Focus Factor,"As a developer,     
+I want to setup docker container for Focus Factor metric   
+So that it is available to be consumed by API interface.
+
+Acceptance criteria:      
+Docker container running successfully.
+
+Planning poker
+
+Kartavya: 5
+
+Abhishek: 5
+
+Jacob: 8
+
+Rahul: 5
+
+Kanav: 8",313807,Sprint 1,2022-03-24,2022-04-03,KanavSharma,Kanav Sharma,,,,,New,True,,5.0,,,,5.0,1648331053293843,19,1648330690949874,2022-03-26 21:38:10.949884+00:00,2022-03-26 22:04:28.600459+00:00,2022-04-03 07:34:24.429581+00:00,False,False,0,,,,,"46,47,48,49",team2,[],0,,
+3929187,40,Docker Container setup- Work Capacity,"As a developer,  
+I want to setup docker container for Work Capacity metric
+So that it is available to be consumed by API interface.
+
+Acceptance criteria:   
+Docker container running successfully.",313807,Sprint 1,2022-03-24,2022-04-03,KanavSharma,Kanav Sharma,,,,,Done,True,,5.0,,,,5.0,1648330747305157,16,1648872653479928,2022-03-26 21:39:07.334096+00:00,2022-04-02 04:10:53.488815+00:00,2022-04-02 04:52:44.324581+00:00,False,False,0,,,,,"60,61,63,64,81",team2,[],0,,
+3929188,41,Taiga API to fetch focus factor from Taiga,"As a developer,   
+I want to fetch focus factor metric data from Taiga API   
+So that it can be used/manipulated by the service logic downstream.
+
+Acceptance criteria:   
+Availability of Taiga API, giving proper results, if executed through clients like postman/SOAP UI.
+
+Planning Poker
+
+Jacob: 8
+
+Kanav: 5
+
+Abhishek: 3
+
+Kartavya: 3
+
+Rahul: 8",313807,Sprint 1,2022-03-24,2022-04-03,KanavSharma,Kanav Sharma,,,,,New,True,,5.0,,,,5.0,1648331053293842,14,1648331053324787,2022-03-26 21:44:13.324799+00:00,2022-03-26 22:09:08.549402+00:00,2022-04-03 00:26:11.181146+00:00,False,False,0,,,,,"22,66,67,68,78,108",team2,[],0,,
+3929189,42,Taiga API for Work Capacity,"As a developer,   I want to work capacity factor metric data from Taiga API So that it can be used/manipulated by the service logic downstream.  
+
+Acceptance criteria: Availability of Taiga API, giving proper results, if executed through clients like postman/SOAP UI.",313807,Sprint 1,2022-03-24,2022-04-03,KanavSharma,Kanav Sharma,,,,,New,True,,5.0,,,,5.0,1648331053293844,18,1648331165380949,2022-03-26 21:46:05.380961+00:00,2022-03-26 22:09:18.318944+00:00,2022-04-04 00:45:14.207338+00:00,False,False,0,,,,,"77,79,80,111,112",team2,[],0,,
+3929190,43,Documentation for executing Focus Factor & Work Capacity,"As a user I want clear instructions for running the docker container   
+so that user using API have clear information of usage and examples
+
+Acceptance Criteria:
+
+README file for fetching metric for Focus Factor & work capacity
+
+Service Names, end points and \[ports being exposed to be consumed by frontend.",313807,Sprint 1,2022-03-24,2022-04-03,KanavSharma,Kanav Sharma,,,,,New,False,,2.0,,,,2.0,1648331356477254,13,1648331356509386,2022-03-26 21:49:16.509395+00:00,2022-03-26 22:05:45.161571+00:00,,False,False,0,,,,,,team2,[],0,,
+3929192,44,TEAM2- Service Implementation for manipulating Focus factor,"As a developer I want to implement logic to manipulate taiga API data received
+so that output is a feed to frontend for display.
+
+Acceptance Criteria:
+- Running services, hosted on container giving Focus Factor for a specified Taiga project
+- Json Output",313808,Sprint 2,2022-04-04,2022-04-17,KanavSharma,Kanav Sharma,,,,,New,False,,13.0,,,,13.0,1648331053293845,2,1648331932356508,2022-03-26 21:58:52.356519+00:00,2022-04-05 05:11:22.488953+00:00,,False,False,0,,,,,"135,153",team2,[],0,,
+3929193,45,Service implementation for work capacity,"As a developer I want to implement logic for work capacity to manipulate taiga API data received
+so that output is a feed to frontend for display.
+
+Acceptance Criteria:
+- Running services, hosted on container giving Work Capacity for a specified Taiga project
+- Json Output",313807,Sprint 1,2022-03-24,2022-04-03,KanavSharma,Kanav Sharma,,,,,New,True,,5.0,,,,5.0,1648331053293846,17,1648331982868942,2022-03-26 21:59:42.868952+00:00,2022-03-26 22:11:43.227901+00:00,2022-04-04 00:45:08.184724+00:00,False,False,0,,,,,"107,113",team2,[],0,,
+3934043,55,Create diagrams for data representation.,,313807,Sprint 1,2022-03-24,2022-04-03,rbjacks3,Rephael B Jackson,,,,,New,True,,,,,5.0,5.0,1648661906463918,3,1648661906463934,2022-03-30 17:38:26.463942+00:00,2022-03-30 17:38:47.169847+00:00,2022-04-02 15:09:22.611649+00:00,False,False,0,,,,,59,team1,[],0,,
+3937786,85,TEAM1 - As a user I want to be able to fetch and calculate velocity from a taiga board with an optional filter,,313808,Sprint 2,2022-04-04,2022-04-17,rbjacks3,Rephael B Jackson,,,,,New,False,,,,,3.0,3.0,1648930856510078,10,1648930856510092,2022-04-02 20:20:56.510101+00:00,2022-04-04 21:09:38.048498+00:00,,False,False,0,,,,,"90,91,92",team1,[],0,,
+3937787,86,TEAM1 - As a user I want to be able to  fetch and calculate burndown from a taiga board using the sprint as a optional filter,,313808,Sprint 2,2022-04-04,2022-04-17,rbjacks3,Rephael B Jackson,,,,,New,False,,,,,5.0,5.0,1648930856510281,13,1648930856510287,2022-04-02 20:20:56.510292+00:00,2022-04-04 21:09:46.618921+00:00,,False,False,0,,,,,"93,94,95",team1,[],0,,
+3937788,87,TEAM1 - As a user I want to be able to  fetch and calculate adopted work from a taiga board  using the sprint as a optional filter,,313808,Sprint 2,2022-04-04,2022-04-17,rbjacks3,Rephael B Jackson,,,,,New,False,,,,,3.0,3.0,1648930856510391,16,1648930856510397,2022-04-02 20:20:56.510400+00:00,2022-04-04 21:10:00.463692+00:00,,False,False,0,,,,,"100,101,102",team1,[],0,,
+3937789,88,TEAM1 - As a user I want to be able to  fetch and calculate task inertia from a taiga board  using the sprint as a optional filter,,313808,Sprint 2,2022-04-04,2022-04-17,rbjacks3,Rephael B Jackson,,,,,New,False,,,,,5.0,5.0,1648930856510494,17,1648930856510500,2022-04-02 20:20:56.510503+00:00,2022-04-04 21:10:14.498197+00:00,,False,False,0,,,,,"97,99,104",team1,[],0,,
+3937790,89,TEAM1 - As a user I want to be able to  fetch and calculate task churn from a taiga board  using the sprint as a optional filter,,313808,Sprint 2,2022-04-04,2022-04-17,rbjacks3,Rephael B Jackson,,,,,New,False,,,,,3.0,3.0,1648930856510596,18,1648930856510601,2022-04-02 20:20:56.510605+00:00,2022-04-04 21:10:27.748646+00:00,,False,False,0,,,,,"96,98,103",team1,[],0,,
+3937801,105,TEAM1 - Create mock data for metric unit testing,,313808,Sprint 2,2022-04-04,2022-04-17,rbjacks3,Rephael B Jackson,,,,,New,False,,,,,2.0,2.0,1648931267123350,19,1648931267156923,2022-04-02 20:27:47.156934+00:00,2022-04-04 21:10:37.454729+00:00,,False,False,0,,,,,106,team1,[],0,,
+3939748,115,TEAM4 - As a scrum developer I want to view the Task Excess metric,,313808,Sprint 2,2022-04-04,2022-04-17,bkanumur,Bhavana Priya K,,,,,New,False,,8.0,,,,8.0,1649128711123725,5,1649128711152098,2022-04-05 03:18:31.152113+00:00,2022-04-05 03:29:18.959886+00:00,,False,False,0,,,,,,team4,[],0,,
+3939750,116,TEAM4 - As a scrum developer I want to view the Focus Factor metric,,313808,Sprint 2,2022-04-04,2022-04-17,bkanumur,Bhavana Priya K,,,,,New,False,,5.0,,,,5.0,1649128750433901,6,1649128750463876,2022-04-05 03:19:10.463890+00:00,2022-04-05 03:29:36.277642+00:00,,False,False,0,,,,,152,team4,[],0,,
+3939751,117,TEAM4 - As a scrum developer I want to view the work capacity metric,,313808,Sprint 2,2022-04-04,2022-04-17,bkanumur,Bhavana Priya K,,,,,New,False,,5.0,,,,5.0,1649128791168842,7,1649128791197026,2022-04-05 03:19:51.197038+00:00,2022-04-05 03:29:52.642929+00:00,,False,False,0,,,,,,team4,[],0,,
+3939753,118,"TEAM4 - As a developer, I want to set up page routing in angular",,313808,Sprint 2,2022-04-04,2022-04-17,bkanumur,Bhavana Priya K,,,,,New,True,,5.0,,,,5.0,1649129048900813,8,1649129048928742,2022-04-05 03:24:08.928754+00:00,2022-04-05 03:30:10.230173+00:00,2022-04-06 01:23:22.168454+00:00,False,False,0,,,,,138,team4,[],0,,
+3939755,119,TEAM4 - As a developer I want to toggle the theme between light and dark,,313808,Sprint 2,2022-04-04,2022-04-17,bkanumur,Bhavana Priya K,,,,,New,False,,,,,3.0,3.0,1649129286718030,9,1649129286747122,2022-04-05 03:28:06.747138+00:00,2022-04-05 03:30:25.404462+00:00,,False,False,0,,,,,,team4,[],0,,
+3939801,120,"TEAM 3- As a developer, I need to be able to calculate the metric ""Task Defect Density"" using the Taiga API's.",,313808,Sprint 2,2022-04-04,2022-04-17,PavithraRavilla,PAVITHRA RAVILLA,,,,,New,False,,10.0,,,,10.0,1649135161677458,20,1649135161708354,2022-04-05 05:06:01.708364+00:00,2022-04-06 06:10:51.260005+00:00,,False,False,0,,,,,"126,127,128,129,150",team3,[],0,,
+3939807,121,"TEAM 3- As a user, I need instructions for running the docker container for task defect density",,313808,Sprint 2,2022-04-04,2022-04-17,PavithraRavilla,PAVITHRA RAVILLA,,,,,New,False,,2.0,,,,2.0,1649135249234556,21,1649135249268113,2022-04-05 05:07:29.268124+00:00,2022-04-06 06:11:21.250798+00:00,,False,False,0,,,,,130,team3,[],0,,
+3939810,122,"TEAM 3- As a developer, I want a Docker file to create a Docker Image for task defect density",,313808,Sprint 2,2022-04-04,2022-04-17,PavithraRavilla,PAVITHRA RAVILLA,,,,,New,False,,2.0,,,,2.0,1649135384950383,22,1649135384978050,2022-04-05 05:09:44.978061+00:00,2022-04-06 06:11:35.055687+00:00,,False,False,0,,,,,131,team3,[],0,,
+3939812,123,"TEAM 3- As a client of the microservice of ""Task Defect Density"" I want to be able to pull the ""Task Defect Density"" metric by sending a request.",,313808,Sprint 2,2022-04-04,2022-04-17,PavithraRavilla,PAVITHRA RAVILLA,,,,,New,False,,5.0,,,,5.0,1649135493967256,23,1649135493996989,2022-04-05 05:11:33.997004+00:00,2022-04-06 06:11:39.577739+00:00,,False,False,0,,,,,133,team3,[],0,,
+3939817,124,TEAM2 - As a developer I want to fetch appropriate data so that I can calculate Found Work,,313808,Sprint 2,2022-04-04,2022-04-17,batman124,Kartavya Chauhan,,,,,New,False,,8.0,,,,8.0,1649136224793945,1,1649136224824109,2022-04-05 05:23:44.824120+00:00,2022-04-05 05:24:18.264567+00:00,,False,False,0,,,,,134,team2,[],0,,
+3939818,125,TEAM2 - As a developer I want to create a container so that I can run Found Work as a Microservice,,313808,Sprint 2,2022-04-04,2022-04-17,batman124,Kartavya Chauhan,,,,,New,False,,5.0,,,,5.0,1649136339683676,4,1649136339712777,2022-04-05 05:25:39.712788+00:00,2022-04-05 05:25:52.164225+00:00,,False,False,0,,,,,137,team2,[],0,,
+3939821,132,TEAM2 - As a developer I want to create a container so that I can fetch all the required data from Taiga to calculate team2 metrics,,313808,Sprint 2,2022-04-04,2022-04-17,batman124,Kartavya Chauhan,,,,,New,False,,8.0,,,,8.0,1649137131126254,3,1649137131157076,2022-04-05 05:38:51.157092+00:00,2022-04-05 05:39:34.362542+00:00,,False,False,0,,,,,136,team2,[],0,,
+3941261,139,"TEAM 3- As a developer, I need to be able to calculate the metric ""Cruft"" using the Taiga API's.",,313808,Sprint 2,2022-04-04,2022-04-17,PavithraRavilla,PAVITHRA RAVILLA,,,,,New,False,,10.0,,,,10.0,1649213355710115,24,1649213293674080,2022-04-06 02:48:13.674092+00:00,2022-04-06 06:11:56.462304+00:00,,False,False,0,,,,,"143,144,145,146,151",team3,[],0,,
+3941263,140,"TEAM 3- As a user, I need instructions for running the docker container for cruft",,313808,Sprint 2,2022-04-04,2022-04-17,PavithraRavilla,PAVITHRA RAVILLA,,,,,New,False,,2.0,,,,2.0,1649213327518915,25,1649213327549045,2022-04-06 02:48:47.549055+00:00,2022-04-06 06:12:00.282464+00:00,,False,False,0,,,,,147,team3,[],0,,
+3941264,141,"TEAM 3- As a developer, I want a Docker file to create a Docker Image for cruft",,313808,Sprint 2,2022-04-04,2022-04-17,PavithraRavilla,PAVITHRA RAVILLA,,,,,New,False,,2.0,,,,2.0,1649213355710114,26,1649213355738322,2022-04-06 02:49:15.738335+00:00,2022-04-06 06:12:02.738293+00:00,,False,False,0,,,,,148,team3,[],0,,
+3941267,142,"TEAM 3- As a client of the microservice of ""Cruft"" I want to be able to pull the ""Cruft"" metric by sending a request.",,313808,Sprint 2,2022-04-04,2022-04-17,PavithraRavilla,PAVITHRA RAVILLA,,,,,New,False,,5.0,,,,5.0,1649213355710116,27,1649213444879590,2022-04-06 02:50:44.879602+00:00,2022-04-06 06:12:06.585375+00:00,,False,False,0,,,,,149,team3,[],0,,
