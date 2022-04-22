@@ -1,0 +1,144 @@
+id,ref,subject,description,sprint_id,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,assigned_users,assigned_users_full_name,status,is_closed,swimlane,front-points,total-points,backlog_order,sprint_order,kanban_order,created_date,modified_date,finish_date,client_requirement,team_requirement,attachments,generated_from_issue,generated_from_task,from_task_ref,external_reference,tasks,tags,watchers,voters,due_date,due_date_reason,BV
+3931524,1,User Interface,"As a project manager, I want an interface so that it is convenient for me to fetch the project data and analyze the visualization.
+
+Definition of Done:
+
+*   The user is able to interact with the interface to fetch the project data
+
+Acceptance Criteria:
+
+*   Should be able to receive user-provided input via form.
+*   A button to submit the data to API Gateway
+*   Validate the given inputs",314258,Sprint 1,2022-03-28,2022-04-02,arajula,Achuth Reddy Rajula ,,,,,New,True,,5.0,5.0,1648508591206785,1,1648508591235302,2022-03-28 23:03:11.235314+00:00,2022-03-28 23:09:09.424933+00:00,2022-04-01 03:42:48.509746+00:00,False,False,0,,,,,"2,3,4",,[],0,,,10
+3931532,5,API endpoints,"As a developer, I want to allocate the endpoints to specific microservices.
+
+Definition of Done:
+* Be able to interact with expected microservice.
+
+Acceptance Criteria:
+
+* Map the endpoints to their respective microservice",314258,Sprint 1,2022-03-28,2022-04-02,arajula,Achuth Reddy Rajula ,,,,,New,False,,4.0,4.0,7,2,1648509415354111,2022-03-28 23:16:55.354121+00:00,2022-03-28 23:16:55.372477+00:00,,False,False,0,,,,,"6,7,8",,[],0,,,6
+3931550,9,Container setup,"As a developer, I want to deploy my code into a container so that it is easy for me to ship my code and can interact with other microservices without much friction.
+
+Definition of Done: 
+* Deploy the code into a container.
+
+Acceptance criteria:
+* Write a dockerfile for the project
+* Build a docker image using the docker file",314258,Sprint 1,2022-03-28,2022-04-02,arajula,Achuth Reddy Rajula ,,,,,New,True,,5.0,5.0,1648509825487156,3,1648509825513439,2022-03-28 23:23:45.513448+00:00,2022-03-28 23:23:45.529859+00:00,2022-04-03 21:51:00.140920+00:00,False,False,0,,,,,"10,11",,[],0,,,8
+3931556,12,Setup React Router,"As a developer, I want a react-router so that, It's convenient for me to handle page navigation.
+
+Definition of Done: 
+* Be able to easily navigate between various pages.
+
+Acceptance Criteria:
+* Use react-router to handle navigation.
+* Setup appropriate links to the pages.",314258,Sprint 1,2022-03-28,2022-04-02,arajula,Achuth Reddy Rajula ,,,,,New,True,,4.0,4.0,1648510086093011,4,1648510086120663,2022-03-28 23:28:06.120674+00:00,2022-03-28 23:28:06.138736+00:00,2022-04-02 16:29:11.754245+00:00,False,False,0,,,,,"13,14",,[],0,,,7
+3940981,15,Vizualization for Cycle Time Microservice,"As a developer, I want to be able to vizualize the specified microservice.
+
+Definition of Done:
+
+Be able to interact with expected microservice.
+
+Acceptance Criteria:
+
+Vizualize the data from the specified microservice.",315021,Sprint 2,2022-04-04,2022-04-18,arajula,Achuth Reddy Rajula ,,,,,New,True,,4.0,4.0,1649188836353786,5,1649188836380800,2022-04-05 20:00:36.380812+00:00,2022-04-05 20:02:07.900992+00:00,2022-04-17 02:43:54.118526+00:00,False,False,0,,,,,"30,33,36,39",,[],0,,,5
+3940982,16,Vizualization for Niko Niko microservice,"As a developer, I want to be able to vizualize the specified microservice.
+
+Definition of Done:
+
+Be able to interact with expected microservice.
+
+Acceptance Criteria:
+
+Vizualize the data from the specified microservice.",315021,Sprint 2,2022-04-04,2022-04-18,arajula,Achuth Reddy Rajula ,,,,,New,True,,5.0,5.0,1649188879413638,6,1649188879442792,2022-04-05 20:01:19.442819+00:00,2022-04-05 20:24:53.279271+00:00,2022-04-13 23:52:27.417695+00:00,False,False,0,,,,,"50,51,53,54",,[],0,,,5
+3940984,17,Vizualization for CFD,"As a developer, I want to be able to vizualize the specified microservice.
+
+Definition of Done:
+
+Be able to interact with expected microservice.
+
+Acceptance Criteria:
+
+Vizualize the data from the specified microservice.",315021,Sprint 2,2022-04-04,2022-04-18,arajula,Achuth Reddy Rajula ,,,,,New,True,,4.0,4.0,1649189055081025,8,1649189055108058,2022-04-05 20:04:15.108068+00:00,2022-04-05 20:04:15.126879+00:00,2022-04-17 08:13:01.408189+00:00,False,False,0,,,,,"31,32,34,35",,[],0,,,5
+3940986,18,Vizualization for Active Tasks Microservice,"As a developer, I want to be able to vizualize the specified microservice.
+
+Definition of Done:
+
+Be able to interact with expected microservice.
+
+Acceptance Criteria:
+
+Vizualize the data from the specified microservice.",315021,Sprint 2,2022-04-04,2022-04-18,arajula,Achuth Reddy Rajula ,,,,,New,False,,4.0,4.0,1649189094178341,2,1649189094206686,2022-04-05 20:04:54.206695+00:00,2022-04-05 20:04:54.223181+00:00,,False,False,0,,,,,"47,48,49,52",,[],0,,,5
+3940987,19,Vizualization for Lead Time Microservice,"As a developer, I want to be able to vizualize the specified microservice.
+
+Definition of Done:
+
+Be able to interact with expected microservice.
+
+Acceptance Criteria:
+
+Vizualize the data from the specified microservice.",315021,Sprint 2,2022-04-04,2022-04-18,arajula,Achuth Reddy Rajula ,,,,,New,True,,4.0,4.0,1649189166086785,7,1649189166115301,2022-04-05 20:06:06.115313+00:00,2022-04-05 20:06:06.132747+00:00,2022-04-11 10:11:46.578956+00:00,False,False,0,,,,,"42,44,45,46",,[],0,,,5
+3940988,20,Vizualization for WIP Microservice,"As a developer, I want to be able to vizualize the specified microservice.
+
+Definition of Done:
+
+Be able to interact with expected microservice.
+
+Acceptance Criteria:
+
+Vizualize the data from the specified microservice.",315021,Sprint 2,2022-04-04,2022-04-18,arajula,Achuth Reddy Rajula ,,,,,New,True,,4.0,4.0,1649189209020245,3,1649189209047817,2022-04-05 20:06:49.047829+00:00,2022-04-05 20:13:38.001884+00:00,2022-04-17 20:13:34.662894+00:00,False,False,0,,,,,"25,26,28,29",,[],0,,,5
+3940989,21,Vizualization for Scope Change Microservice,"As a developer, I want to be able to vizualize the specified microservice.
+
+Definition of Done:
+
+Be able to interact with expected microservice.
+
+Acceptance Criteria:
+
+Vizualize the data from the specified microservice.",,,,,arajula,Achuth Reddy Rajula ,,,,,New,False,,4.0,4.0,3,1649189293257507,1649189293286639,2022-04-05 20:08:13.286654+00:00,2022-04-05 20:08:13.303547+00:00,,False,False,0,,,,,,,[],0,,,5
+3940991,22,Vizualization for Throughput Microservice,"As a developer, I want to be able to vizualize the specified microservice.
+
+Definition of Done:
+
+Be able to interact with expected microservice.
+
+Acceptance Criteria:
+
+Vizualize the data from the specified microservice.",,,,,arajula,Achuth Reddy Rajula ,,,,,New,False,,4.0,4.0,4,1649189329876984,1649189329909756,2022-04-05 20:08:49.909776+00:00,2022-04-05 20:08:49.928976+00:00,,False,False,0,,,,,,,[],0,,,5
+3940992,23,Vizualization for Impediment Tracker Microservice,"As a developer, I want to be able to vizualize the specified microservice.
+
+Definition of Done:
+
+Be able to interact with expected microservice.
+
+Acceptance Criteria:
+
+Vizualize the data from the specified microservice.",,,,,arajula,Achuth Reddy Rajula ,,,,,New,False,,4.0,4.0,5,1649189356234819,1649189356270784,2022-04-05 20:09:16.270795+00:00,2022-04-05 20:09:16.292591+00:00,,False,False,0,,,,,"37,38,41,43",,[],0,,,5
+3940994,24,Vizualization for Accepted Work Spread Microservice,"As a developer, I want to be able to vizualize the specified microservice.
+
+Definition of Done:
+
+Be able to interact with expected microservice.
+
+Acceptance Criteria:
+
+Vizualize the data from the specified microservice.",,,,,arajula,Achuth Reddy Rajula ,,,,,New,False,,4.0,4.0,6,1649189378818934,1649189378850101,2022-04-05 20:09:38.850115+00:00,2022-04-05 20:09:38.869555+00:00,,False,False,0,,,,,,,[],0,,,5
+3940995,27,Add Nav Bar,"As a user I want a Nav Bar to be able to navigate through various pages
+
+Definition of Done:
+* Be able to navigate using Nav Bar
+
+Acceptance Criteria:
+* Map different pages to the Nav Bar elements
+* Add Nav Bar to all pages",315021,Sprint 2,2022-04-04,2022-04-18,arajula,Achuth Reddy Rajula ,,,,,New,True,,3.0,3.0,2,4,1649189537702660,2022-04-05 20:12:17.702671+00:00,2022-04-05 20:12:17.720531+00:00,2022-04-06 23:52:00.221558+00:00,False,False,0,,,,,"55,56",,[],0,,,4
+3940998,40,Offline request handling,"As a user I want the requests made to be Asynchronous so that I don't lose the response data.
+
+Definition of Done:
+* Be able to grab response even when the web page is not focused
+
+Acceptance Criteria:
+* User Local Browser Storage to store response
+* Render the data when back the web page is focused
+* Use useEffect Hooks to render the data
+* Constantly check if the response data is received",315021,Sprint 2,2022-04-04,2022-04-18,arajula,Achuth Reddy Rajula ,,,,,New,True,,5.0,5.0,7,1,1649189921691477,2022-04-05 20:18:41.691487+00:00,2022-04-05 20:18:41.709423+00:00,2022-04-10 02:49:50.926475+00:00,False,False,0,,,,,"57,58,59,60",,[],0,,,7
