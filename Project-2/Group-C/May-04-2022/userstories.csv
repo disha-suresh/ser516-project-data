@@ -1,0 +1,105 @@
+id,ref,subject,description,sprint_id,sprint,sprint_estimated_start,sprint_estimated_finish,owner,owner_full_name,assigned_to,assigned_to_full_name,assigned_users,assigned_users_full_name,status,is_closed,swimlane,back-points,devops-6-points,front-points,total-points,backlog_order,sprint_order,kanban_order,created_date,modified_date,finish_date,client_requirement,team_requirement,attachments,generated_from_issue,generated_from_task,from_task_ref,external_reference,tasks,tags,watchers,voters,due_date,due_date_reason,Happiness,Business Value
+3924687,1,Initialize BE spring-boot service,,,,,,prosam,Sambuddha Nath,prosam,Sambuddha Nath,prosam,Sambuddha Nath,Done,True,Back End,1.0,,0.0,1.0,1648011983272934,1648011983273005,2,2022-03-23 05:06:23.309095+00:00,2022-03-23 05:06:23.332086+00:00,2022-03-25 04:32:02.333988+00:00,False,False,0,,,,,,,[],0,,,,
+3924688,2,Initialize the Frontend React Application,Initialize the frontend react application to start working on the project.,,,,,abhishek.mohabe,Abhishek Mohabe,abhishek.mohabe,Abhishek Mohabe,abhishek.mohabe,Abhishek Mohabe,Done,True,Front End,1.0,0.0,8.0,9.0,1648012037248060,1648012037248170,1,2022-03-23 05:07:17.286780+00:00,2022-03-23 05:07:17.326955+00:00,2022-03-25 04:50:54.593904+00:00,False,False,0,,,,,,,[],0,,,,
+3928550,3,Taiga Controller,Connects with Taiga and serves data to both UI and other Metrics services.,,,,,vidhya_sathyalaya,Vidhya Sathyalaya Ramakrishnan,abhatt63,Anand Bhattacharya,"abhatt63,prosam","Anand Bhattacharya,Sambuddha Nath",Done,False,Back End,5.0,0.0,0.0,5.0,1648232627174663,1648232627174734,7,2022-03-25 18:23:47.216878+00:00,2022-03-26 23:44:31.666730+00:00,,False,False,0,,,,,"15,18",,[],0,,,3,4
+3928554,4,BD Consistency,,,,,,vidhya_sathyalaya,Vidhya Sathyalaya Ramakrishnan,vidhya_sathyalaya,Vidhya Sathyalaya Ramakrishnan,"_manish_m_r,vidhya_sathyalaya","Manish Mysore Rajesh Gangadhar,Vidhya Sathyalaya Ramakrishnan",Done,True,Back End,0.0,0.0,0.0,0.0,1648232707452339,1648232707452422,9,2022-03-25 18:25:07.491694+00:00,2022-03-25 18:25:07.517134+00:00,2022-05-02 03:22:08.016170+00:00,False,False,0,,,,,,,[],0,,,4,4
+3928555,5,Login Page UI Development.,Login page will have two text fields and a submit button one is username and the other one is password.,,,,,dhruvi.modii,Dhruvi Modi ,vdasari2,Vishnu Preetham Reddy Dasari,"dhruvi.modii,vdasari2","Dhruvi Modi ,Vishnu Preetham Reddy Dasari",Done,True,Front End,0.0,0.0,8.0,8.0,1648232785647628,1648232785647688,8,2022-03-25 18:26:25.680348+00:00,2022-03-25 18:50:24.375227+00:00,2022-05-05 06:35:12.941132+00:00,False,False,0,,,,,,,[],0,,,,4
+3928556,6,Test Login Page UI,make puppeteer test for login page,,,,,dhruvi.modii,Dhruvi Modi ,dhruvi.modii,Dhruvi Modi ,dhruvi.modii,Dhruvi Modi ,Done,True,Front End,0.0,0.0,3.0,3.0,1648232889438990,1648232889439060,3,2022-03-25 18:28:09.472335+00:00,2022-03-25 18:36:55.944729+00:00,2022-05-05 06:35:36.213812+00:00,False,False,0,,,,,,,[],0,,,,2
+3928557,7,Work AUC,"Acceptance Criteria:  
+
+1.  Json should be able to get data of Story points done, Ideal Story points for each day.
+2.  Jason format should show the data based on days and it should contain dates too.
+3.  It should contain information about the Work AUC.
+4.  Json format should be in the format
+
+ {
+
+""totalSP"": 0,
+
+""idealDailySP"": o,
+
+""workAUC"": 0,
+
+""dailyValuesList"": \[
+
+{
+
+""date"": ""YYYY-MM-DD"",
+
+""spDone"": 0,
+
+""spIdeal"": 0,
+
+""spideal"": 0
+
+},
+
+{
+
+""date"": ""YYYY-MM-DD"",
+
+""spDone"": 0,
+
+""spIdeal"": 0,
+
+""spideal"": 0
+
+}
+
+\]
+
+}",,,,,vidhya_sathyalaya,Vidhya Sathyalaya Ramakrishnan,07janardhan,Janardhan Reddy Bommireddy,"07janardhan,ashaik27,santoshkaluva1","Janardhan Reddy Bommireddy,Ashik ,kaluva santosh bhargav",Done,True,Back End,0.0,0.0,0.0,0.0,1648232908380003,1648232908380061,4,2022-03-25 18:28:28.411951+00:00,2022-04-19 00:28:32.619628+00:00,2022-05-05 06:26:13.180974+00:00,False,False,0,,,,,,,[],0,,,4,4
+3928558,8,Value AUC,,,,,,vidhya_sathyalaya,Vidhya Sathyalaya Ramakrishnan,ashaik27,Ashik ,"agiliyal,ashaik27,kaushikreddy1209","Apoorva Giliyal,Ashik ,kaushik reddy ",Done,True,Back End,0.0,0.0,0.0,0.0,1648232943209062,1648232943209128,12,2022-03-25 18:29:03.255688+00:00,2022-04-06 19:48:31.785707+00:00,2022-05-04 23:32:34.868814+00:00,False,False,0,,,,,,,[],0,,,4,4
+3928559,9,Work AUC metric page,It will have a graph depending on static data for now.,,,,,dhruvi.modii,Dhruvi Modi ,saitejareddy2050,Saiteja Reddy Cheela,"saitejareddy2050,subra1997","Saiteja Reddy Cheela,Subramanian Arunachalam",Done,True,Front End,0.0,0.0,5.0,5.0,1648233067526278,1648233067526351,14,2022-03-25 18:31:07.555393+00:00,2022-03-25 18:40:09.029824+00:00,2022-05-05 03:52:29.767081+00:00,False,False,0,,,,,,,[],0,,,,4
+3928560,10,Test for Work AUC graph,Puppeteer test for graph,,,,,dhruvi.modii,Dhruvi Modi ,saitejareddy2050,Saiteja Reddy Cheela,"saitejareddy2050,subra1997","Saiteja Reddy Cheela,Subramanian Arunachalam",Done,True,Front End,0.0,0.0,3.0,3.0,1648233122246730,1648233122246800,5,2022-03-25 18:32:02.279814+00:00,2022-03-25 18:41:00.381006+00:00,2022-05-05 06:35:23.958143+00:00,False,False,0,,,,,,,[],0,,,,2
+3928569,11,Dashboard UI and testing,"Side panel with names of metrics 
+top bar dropdown for team names for credential and sprint information.
+puppeteer test.",,,,,dhruvi.modii,Dhruvi Modi ,_manish_m_r,Manish Mysore Rajesh Gangadhar,"_manish_m_r,vdasari2","Manish Mysore Rajesh Gangadhar,Vishnu Preetham Reddy Dasari",Done,True,Front End,0.0,0.0,8.0,8.0,1648234134181326,1648234134181392,2,2022-03-25 18:48:54.219515+00:00,2022-04-06 05:34:32.093271+00:00,2022-05-05 06:35:41.862411+00:00,False,False,0,,,,,,,[],0,,,,4
+3928572,12,Value AUC Development,Create graph for value AUC,,,,,dhruvi.modii,Dhruvi Modi ,yashwanthdantanoor1,Yashwanth Dantanoor,"praneeth-kallam,yashwanthdantanoor1","Praneeth Sai Kumar Reddy Kallam,Yashwanth Dantanoor",Done,True,Front End,0.0,0.0,5.0,5.0,1648234375567974,1648234375568061,17,2022-03-25 18:52:55.610166+00:00,2022-03-25 19:33:59.138568+00:00,2022-05-04 01:13:02.367930+00:00,False,False,0,,,,,,,[],0,,,4,4
+3928573,13,Value AUC test,,,,,,dhruvi.modii,Dhruvi Modi ,nakhan8-1,Nabeel Khan,nakhan8-1,Nabeel Khan,Done,True,Front End,0.0,0.0,3.0,3.0,1648234473407440,1648234473407556,9,2022-03-25 18:54:33.450588+00:00,2022-03-26 06:05:52.386559+00:00,2022-05-05 04:24:40.886896+00:00,False,False,0,,,,,,,[],0,,,,1
+3928586,14,Burndown Consistency,Displayed after login,,,,,dhruvi.modii,Dhruvi Modi ,_manish_m_r,Manish Mysore Rajesh Gangadhar,"dhruvi.modii,_manish_m_r","Dhruvi Modi ,Manish Mysore Rajesh Gangadhar",Done,True,Front End,0.0,0.0,5.0,5.0,1648235415140409,1648235415140465,12,2022-03-25 19:10:15.176178+00:00,2022-04-26 02:05:09.945621+00:00,2022-05-05 03:38:03.204317+00:00,False,False,0,,,,,,,[],0,,,,2
+3929198,16,Create Manual Deployment Steps in Local,,,,,,prosam,Sambuddha Nath,prosam,Sambuddha Nath,prosam,Sambuddha Nath,Done,False,Dev Ops,0.0,3.0,0.0,3.0,1648333348320113,1648333348320182,3,2022-03-26 22:22:28.360616+00:00,2022-03-29 00:41:59.300159+00:00,,False,False,0,,,,,17,,[],0,,,1,2
+3937518,19,profile creation,,,,,,ashaik27,Ashik ,ashaik27,Ashik ,ashaik27,Ashik ,Done,True,Dev Ops,0.0,2.0,0.0,2.0,1648867519610817,1648867519610875,4,2022-04-02 02:45:19.655729+00:00,2022-04-02 02:45:19.678636+00:00,2022-04-05 04:07:25.743046+00:00,False,False,0,,,,,,,[],0,,,,
+3939792,20,Value Burndown Graph,,,,,,abhishek.mohabe,Abhishek Mohabe,_manish_m_r,Manish Mysore Rajesh Gangadhar,"_manish_m_r,praneeth-kallam","Manish Mysore Rajesh Gangadhar,Praneeth Sai Kumar Reddy Kallam",Done,True,Front End,0.0,0.0,0.0,0.0,1649134130047342,1649134130047401,13,2022-04-05 04:48:50.081594+00:00,2022-05-04 00:13:09.885038+00:00,2022-05-05 04:24:25.601018+00:00,False,False,0,,,,,,,[],0,,,5,4
+3939794,22,Partial Work Burndown,,,,,,abhishek.mohabe,Abhishek Mohabe,praneeth-kallam,Praneeth Sai Kumar Reddy Kallam,"praneeth-kallam,yashwanthdantanoor1","Praneeth Sai Kumar Reddy Kallam,Yashwanth Dantanoor",Done,True,Front End,0.0,0.0,0.0,0.0,1649134254643965,1649134254644041,15,2022-04-05 04:50:54.674242+00:00,2022-04-28 04:12:50.297543+00:00,2022-05-05 04:24:02.734194+00:00,False,False,0,,,,,,,[],0,,,3,4
+3939802,23,Total Work Burndown,,,,,,vidhya_sathyalaya,Vidhya Sathyalaya Ramakrishnan,vidhya_sathyalaya,Vidhya Sathyalaya Ramakrishnan,vidhya_sathyalaya,Vidhya Sathyalaya Ramakrishnan,Done,True,Back End,0.0,0.0,0.0,0.0,1649135186275858,1649135186275920,10,2022-04-05 05:06:26.307134+00:00,2022-04-10 06:28:26.700784+00:00,2022-05-05 04:46:59.558033+00:00,False,False,0,,,,,,,[],0,,,,
+3939804,24,Value Burndown,,,,,,vidhya_sathyalaya,Vidhya Sathyalaya Ramakrishnan,agiliyal,Apoorva Giliyal,agiliyal,Apoorva Giliyal,Done,True,Back End,0.0,0.0,0.0,0.0,1649135207875783,1649135207875857,13,2022-04-05 05:06:47.907246+00:00,2022-04-17 19:48:00.478564+00:00,2022-05-04 23:32:38.575402+00:00,False,False,0,,,,,,,[],0,,,,
+3939805,25,Partial Work Done,"Acceptance criteria:
+
+1.  Json format should give the complete value of partial work done.
+2.  Sample Json format should be like 
+
+{
+
+""Start date"": ""YYYY-MM-DD"",
+
+""End date"": ""YYYY-MM-DD"",
+
+""Partial work done"":0.0
+
+}",,,,,vidhya_sathyalaya,Vidhya Sathyalaya Ramakrishnan,santoshkaluva1,kaluva santosh bhargav,"07janardhan,abhatt63,santoshkaluva1","Janardhan Reddy Bommireddy,Anand Bhattacharya,kaluva santosh bhargav",Done,True,Back End,5.0,0.0,0.0,5.0,1649135219860656,1649135219860717,3,2022-04-05 05:06:59.894710+00:00,2022-04-21 04:26:30.210447+00:00,2022-05-05 06:26:14.506256+00:00,False,False,0,,,,,,,[],0,,,3,4
+3939806,26,Create a Automation Script for Deploying micro services in Docker,,,,,,prosam,Sambuddha Nath,prosam,Sambuddha Nath,prosam,Sambuddha Nath,Done,True,Dev Ops,0.0,3.0,0.0,3.0,1649135231148428,1649135231148570,2,2022-04-05 05:07:11.195822+00:00,2022-04-05 05:07:11.222883+00:00,2022-04-13 04:11:42.680639+00:00,False,False,0,,,,,,,[],0,,,,
+3939809,27,Create a Jenkins Automation Pipeline - Spike,,,,,,prosam,Sambuddha Nath,prosam,Sambuddha Nath,prosam,Sambuddha Nath,Done,True,Dev Ops,0.0,5.0,0.0,5.0,1649135273395978,1649135273396042,1,2022-04-05 05:07:53.434577+00:00,2022-04-05 05:07:53.457856+00:00,2022-04-17 03:34:31.084599+00:00,False,False,0,,,,,,,[],0,,,,
+3939824,28,Total work burndown metric,"As a Project manager, I need to see the metric in the form of a chart so that I may evaluate and analyze it for a conclusion.
+
+When to push to done:
+
+The user need to visualize  and also need to interact with to fetch the data.
+
+Acceptance Criteria
+
+*   Need to be responsive.
+*   /\*More clarity of thought, will update\*/",,,,,hrjune1699,Harshith Godishala,hrjune1699,Harshith Godishala,"abhishek.mohabe,hrjune1699","Abhishek Mohabe,Harshith Godishala",Done,True,Front End,0.0,0.0,8.0,8.0,1649137430054336,1649137430054485,19,2022-04-05 05:43:50.095700+00:00,2022-04-05 05:53:09.920579+00:00,2022-05-05 03:33:56.136770+00:00,False,False,0,,,,,,,[],0,,,3,5
+3941061,29,Delivery on Time - spike,,,,,,prosam,Sambuddha Nath,agiliyal,Apoorva Giliyal,"agiliyal,ashaik27","Apoorva Giliyal,Ashik ",Done,True,Back End,3.0,0.0,0.0,3.0,1649197253010677,1649197253010737,8,2022-04-05 22:20:53.039375+00:00,2022-05-04 16:10:25.857419+00:00,2022-05-05 05:30:44.213180+00:00,False,False,0,,,,,,,[],0,,,,
+3941062,30,PB/SB/Tasks Coupling - spike,,,,,,prosam,Sambuddha Nath,prosam,Sambuddha Nath,"abhishek.mohabe,_manish_m_r,prosam,vidhya_sathyalaya","Abhishek Mohabe,Manish Mysore Rajesh Gangadhar,Sambuddha Nath,Vidhya Sathyalaya Ramakrishnan",Done,True,Back End,3.0,0.0,0.0,3.0,1649197270205835,1649197270205912,11,2022-04-05 22:21:10.238555+00:00,2022-04-05 22:21:47.147256+00:00,2022-05-05 04:15:38.243813+00:00,False,False,0,,,,,,,[],0,,,,
+3958720,32,PB Coupling,,,,,,abhatt63,Anand Bhattacharya,prosam,Sambuddha Nath,prosam,Sambuddha Nath,Done,True,Back End,0.0,0.0,0.0,0.0,1650516021852042,1650516021852100,6,2022-04-21 04:40:21.882314+00:00,2022-05-03 08:59:40.496064+00:00,2022-05-05 06:26:10.386618+00:00,False,False,0,,,,,,,[],0,,,,
+3958722,33,SB Coupling,,,,,,abhatt63,Anand Bhattacharya,santoshkaluva1,kaluva santosh bhargav,"santoshkaluva1,vidhya_sathyalaya","kaluva santosh bhargav,Vidhya Sathyalaya Ramakrishnan",Done,True,Back End,0.0,0.0,0.0,0.0,1650516028219675,1650516028219741,5,2022-04-21 04:40:28.250495+00:00,2022-05-01 19:25:09.373120+00:00,2022-05-05 06:26:11.678980+00:00,False,False,0,,,,,,,[],0,,,,
+3958724,34,Task Coupling,,,,,,abhatt63,Anand Bhattacharya,abhatt63,Anand Bhattacharya,abhatt63,Anand Bhattacharya,In progress,False,Back End,0.0,0.0,0.0,0.0,1650516050819852,1650516050820004,7,2022-04-21 04:40:50.853083+00:00,2022-04-24 18:10:19.133592+00:00,,False,False,0,,,,,,,[],0,,,,
+3958755,35,Unblock Graph Display in React,,,,,,prosam,Sambuddha Nath,prosam,Sambuddha Nath,"prosam,vdasari2,vidhya_sathyalaya","Sambuddha Nath,Vishnu Preetham Reddy Dasari,Vidhya Sathyalaya Ramakrishnan",Done,True,Front End,0.0,0.0,2.0,2.0,1650516882858599,1650516882858679,16,2022-04-21 04:54:42.894295+00:00,2022-05-02 03:21:48.291376+00:00,2022-05-05 03:40:20.670570+00:00,False,False,0,,,,,,,[],0,,,3,2
+3963414,36,Give Styling to Login Page,"Add animation on login Page, Align the text boxes at center",,,,,dhruvi.modii,Dhruvi Modi ,dhruvi.modii,Dhruvi Modi ,dhruvi.modii,Dhruvi Modi ,Done,True,Front End,0.0,0.0,2.0,2.0,1650855058839550,1650855058839613,7,2022-04-25 02:50:58.876253+00:00,2022-04-25 02:51:48.454018+00:00,2022-05-05 06:35:14.679412+00:00,False,False,0,,,,,,,[],0,,,,
+3964990,37,Implementing page state persistence on reloads,,,,,,vdasari2,Vishnu Preetham Reddy Dasari,vdasari2,Vishnu Preetham Reddy Dasari,vdasari2,Vishnu Preetham Reddy Dasari,Done,True,Front End,0.0,0.0,0.0,0.0,1650933204102054,1650933204102113,11,2022-04-26 00:33:24.140498+00:00,2022-04-28 17:35:36.489996+00:00,2022-05-05 05:53:24.187218+00:00,False,False,0,,,,,,,[],0,,,,5
+3971719,39,Website Footer Design,Add the website design,,,,,abhishek.mohabe,Abhishek Mohabe,abhishek.mohabe,Abhishek Mohabe,"abhishek.mohabe,hrjune1699","Abhishek Mohabe,Harshith Godishala",Done,True,Front End,0.0,0.0,2.0,2.0,1651376466666473,1651376466666537,18,2022-05-01 03:41:06.707923+00:00,2022-05-02 22:22:30.787549+00:00,2022-05-04 18:48:45.796663+00:00,False,False,0,,,,,,,[],0,,,5,2
+3971969,41,Delivery on time graph,,,,,,vdasari2,Vishnu Preetham Reddy Dasari,vdasari2,Vishnu Preetham Reddy Dasari,vdasari2,Vishnu Preetham Reddy Dasari,Done,True,Front End,0.0,0.0,5.0,5.0,1651429596812346,1651429596812417,10,2022-05-01 18:26:36.851613+00:00,2022-05-01 18:26:36.874794+00:00,2022-05-05 05:53:22.117213+00:00,False,False,0,,,,,,,[],0,,,,3
+3975655,42,Task Coupling,,,,,,_manish_m_r,Manish Mysore Rajesh Gangadhar,saitejareddy2050,Saiteja Reddy Cheela,"saitejareddy2050,subra1997","Saiteja Reddy Cheela,Subramanian Arunachalam",In progress,False,Front End,0.0,0.0,5.0,5.0,1651641971629239,1651641971629307,1,2022-05-04 05:26:11.672319+00:00,2022-05-04 05:26:11.696078+00:00,,False,False,0,,,,,,,[],0,,,,
+3975656,43,PB Coupling,Generate PB coupling graph on frontend.,,,,,_manish_m_r,Manish Mysore Rajesh Gangadhar,_manish_m_r,Manish Mysore Rajesh Gangadhar,_manish_m_r,Manish Mysore Rajesh Gangadhar,Done,True,Front End,0.0,0.0,5.0,5.0,1651642021077673,1651642021077752,4,2022-05-04 05:27:01.108137+00:00,2022-05-04 10:46:24.272133+00:00,2022-05-05 06:35:30.226992+00:00,False,False,0,,,,,,,[],0,,,,
+3976949,45,SB Coupling,,,,,,vdasari2,Vishnu Preetham Reddy Dasari,vdasari2,Vishnu Preetham Reddy Dasari,vdasari2,Vishnu Preetham Reddy Dasari,Done,True,Front End,0.0,0.0,5.0,5.0,1651702582972884,1651702582972951,6,2022-05-04 22:16:23.009107+00:00,2022-05-04 22:16:23.036210+00:00,2022-05-05 06:35:19.922975+00:00,False,False,0,,,,,,,[],0,,,,3
